@@ -1,11 +1,11 @@
-package ru.javastudy.hibernate.main;
+package com.scnetcracker.main;
+
+import com.scnetcracker.utils.HibernateSessionFactory;
 
 import org.hibernate.Session;
-import ru.javastudy.hibernate.dao.ContactEntity;
-import ru.javastudy.hibernate.utils.HibernateSessionFactory;
 
 /**
- * Created by Nick on 05.09.2015.
+first try
  */
 public class AppMain {
 
@@ -16,13 +16,9 @@ public class AppMain {
 
         session.beginTransaction();
 
-        ContactEntity contactEntity = new ContactEntity();
-
-        contactEntity.setBirthDate(new java.util.Date());
-        contactEntity.setFirstName("Nick");
-        contactEntity.setLastName("VN");
-
-        session.save(contactEntity);
+        /**
+         first try to start
+         */
         session.getTransaction().commit();
 
         session.close();
