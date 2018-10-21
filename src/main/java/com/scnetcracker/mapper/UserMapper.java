@@ -1,7 +1,6 @@
 package com.scnetcracker.mapper;
 
 import com.scnetcracker.entity.User;
-import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
