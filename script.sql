@@ -25,7 +25,9 @@ CREATE TABLE `promo`.`groups`
   PRIMARY KEY (`id`)
 );
 
-
+INSERT INTO `promo`.`groups`(name) VALUES('Administrator');
+INSERT INTO `promo`.`groups`(name) VALUES('Moderator');
+INSERT INTO `promo`.`groups`(name) VALUES('User');
 
 -- ************************************** `shops`
 
