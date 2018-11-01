@@ -173,7 +173,6 @@ FOREIGN KEY (`userID`) REFERENCES `users` (`id`)
 );
 
 DROP TRIGGER IF EXISTS `promo`.`delete_user`;
-
 CREATE TRIGGER `promo`.`delete_user` before delete ON `promo`.`users`
 FOR EACH ROW BEGIN
 UPDATE `promocodes` SET userID='1' WHERE `promocodes`.`userID`=OLD.`id`;
@@ -183,21 +182,25 @@ DELETE FROM `promo`.`shoplikes` WHERE `shoplikes`.userID=OLD.`id`;
 DELETE FROM `promo`.`shopdislikes` WHERE `shopdislikes`.userID=OLD.`id`;
 END;
 
+DROP TRIGGER IF EXISTS `promo`.`addPromoLike`;
 CREATE TRIGGER `promo`.`addPromoLike` BEFORE INSERT ON `promo`.`promolikes`
 FOR EACH ROW BEGIN
 DELETE FROM `promo`.`promodislikes` WHERE `promodislikes`.userID=NEW.userID;
 END;
 
+DROP TRIGGER IF EXISTS `promo`.`addPromoDislike`;
 CREATE TRIGGER `promo`.`addPromoDislike` BEFORE INSERT ON `promo`.`promodislikes`
 FOR EACH ROW BEGIN
 DELETE FROM `promo`.`promolikes` WHERE `promolikes`.userID=NEW.userID;
 END;
 
+DROP TRIGGER IF EXISTS `promo`.`addShopLike`;
 CREATE TRIGGER `promo`.`addShopLike` BEFORE INSERT ON `promo`.`shoplikes`
 FOR EACH ROW BEGIN
 DELETE FROM `promo`.`shopdislikes` WHERE `shopdislikes`.userID=NEW.userID;
 END;
 
+DROP TRIGGER IF EXISTS `promo`.`addShopDislike`;
 CREATE TRIGGER `promo`.`addShopDislike` BEFORE INSERT ON `promo`.`shopdislikes`
 FOR EACH ROW BEGIN
 DELETE FROM `promo`.`shoplikes` WHERE `shoplikes`.userID=NEW.userID;
