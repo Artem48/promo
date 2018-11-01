@@ -51,6 +51,11 @@
           <element id="library" level="project" name="Maven: org.hibernate:hibernate-ehcache:5.0.1.Final" />
           <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.4.3" />
           <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+          <element id="library" level="project" name="Maven: javax.xml.bind:jaxb-api:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" />
+          <element id="library" level="project" name="Maven: com.sun.xml.bind:jaxb-impl:2.2.11" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1.1" />
+          <element id="library" level="project" name="Maven: org.json:json:20180813" />
         </element>
       </element>
       <element id="directory" name="META-INF">
