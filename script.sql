@@ -1,7 +1,7 @@
 
 -- DROP  DATABASE IF EXISTS promo;
 
-CREATE DATABASE promo;
+CREATE DATABASE IF NOT EXISTS promo;
 
 DROP TABLE IF EXISTS `promo`.`promoDislikes`;
 DROP TABLE IF EXISTS `promo`.`promoLikes`;
@@ -171,3 +171,36 @@ PRIMARY KEY (`id`),
 FOREIGN KEY (`PromoID`) REFERENCES `promocodes` (`PromoID`),
 FOREIGN KEY (`userID`) REFERENCES `users` (`id`)
 );
+
+DROP TRIGGER IF EXISTS `promo`.`delete_user`;
+
+CREATE TRIGGER `promo`.`delete_user` before delete ON `promo`.`users`
+FOR EACH ROW BEGIN
+UPDATE `promocodes` SET userID='1' WHERE `promocodes`.`userID`=OLD.`id`;
+DELETE FROM `promo`.`promolikes` WHERE `promolikes`.userID=OLD.`id`;
+DELETE FROM `promo`.`promodislikes` WHERE `promodislikes`.userID=OLD.`id`;
+DELETE FROM `promo`.`shoplikes` WHERE `shoplikes`.userID=OLD.`id`;
+DELETE FROM `promo`.`shopdislikes` WHERE `shopdislikes`.userID=OLD.`id`;
+END;
+
+CREATE TRIGGER `promo`.`addPromoLike` BEFORE INSERT ON `promo`.`promolikes`
+FOR EACH ROW BEGIN
+DELETE FROM `promo`.`promodislikes` WHERE `promodislikes`.userID=NEW.userID;
+END;
+
+CREATE TRIGGER `promo`.`addPromoDislike` BEFORE INSERT ON `promo`.`promodislikes`
+FOR EACH ROW BEGIN
+DELETE FROM `promo`.`promolikes` WHERE `promolikes`.userID=NEW.userID;
+END;
+
+CREATE TRIGGER `promo`.`addShopLike` BEFORE INSERT ON `promo`.`shoplikes`
+FOR EACH ROW BEGIN
+DELETE FROM `promo`.`shopdislikes` WHERE `shopdislikes`.userID=NEW.userID;
+END;
+
+CREATE TRIGGER `promo`.`addShopDislike` BEFORE INSERT ON `promo`.`shopdislikes`
+FOR EACH ROW BEGIN
+DELETE FROM `promo`.`shoplikes` WHERE `shoplikes`.userID=NEW.userID;
+END;
+
+INSERT INTO `promo`.`users` (id,login,email,password,groupID) VALUE (1,Administrator,Admin@admin.ru,1234,1);
