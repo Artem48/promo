@@ -5,142 +5,50 @@
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="resources/assets/images/favicon.png">
-    <title></title>
-
-    <!-- page css -->
-    <link href="${contextPath}/resources/dist/css/pages/login-register-lock.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="${contextPath}/resources/dist/css/style.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="${contextPath}/resources/css/main.css" >
-
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="resources/css/auth.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+<body>
+<div class="container">
+    <div class="reg-block">
+        <h3>Вход</h3>
+        <br>
+        <br>
+        <form>
+            <div class="inputVal">
+                <label for="Login">Имя пользователя:</label><br>
+                <input required="required"  type="text" id="Login">
+            </div>
 
-<body class="skin-default card-no-border">
-<h1>${baseURL}</h1>
-<!-- ============================================================== -->
-<!-- Preloader - style you can find in spinners.css -->
-<!-- ============================================================== -->
-<div class="preloader">
-    <div class="loader">
-        <div class="loader__figure"></div>
-        <p class="loader__label"></p>
+            <div class="inputVal">
+                <label for="Password">Пароль:</label><br>
+                <input required="required" type="text" id="Password">
+            </div>
+
+            <div class="inputVal">
+                <p class="error"></p>
+            </div>
+
+            <div class="inputVal">
+                <input type="submit" value="Вход" id="subButton">
+            </div>
+        </form>
+
+
     </div>
 </div>
-<!-- ============================================================== -->
-<!-- Main wrapper - style you can find in pages.scss -->
-<!-- ============================================================== -->
-<section id="wrapper">
-    <div class="login-register" style="background-image:url(resources/assets/images/background/login-register.jpg);">
-        <div class="login-box card">
-            <div class="card-body">
-                <form class="form-horizontal form-material" id="loginform" action="index.html">
-                    <h3 class="text-center m-b-20">Вход</h3>
-                    <div class="form-group ">
-                        <div class="col-xs-12">
-                            <input class="form-control" type="text" required="" placeholder="Логин"> </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-xs-12">
-                            <input class="form-control" type="password" required="" placeholder="Пароль"> </div>
-                    </div>
-                    <div class="form-group row">
-                        <div class="col-md-12">
-                            <div class="d-flex no-block align-items-center">
 
-                                <div class="ml-auto">
-                                    <a href="javascript:void(0)" id="to-recover" class="text-muted"><i class="fas fa-lock m-r-5"></i> Забыли пароль?</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group text-center">
-                        <div class="col-xs-12 p-b-20">
-                            <button class="btn btn-block btn-lg btn-info btn-rounded" type="submit">Войти</button>
-                        </div>
-                    </div>
 
-                    <div class="form-group m-b-0">
-                        <div class="col-sm-12 text-center">
-                            Еще не с нами? <a href="registration" class="text-info m-l-5"><b>Не теряй возможность</b></a>
-                        </div>
-                    </div>
-                </form>
-                <form class="form-horizontal" id="recoverform" action="/">
-                    <div class="form-group ">
-                        <div class="col-xs-12">
-                            <h3>Восстановление пароля</h3>
-                            <p class="text-muted">Введите ваш Email и мы сразу же вышлем на него все инструкции! </p>
-                        </div>
-                    </div>
-                    <div class="form-group ">
-                        <div class="col-xs-12">
-                            <input class="form-control" type="text" required="" placeholder="Email"> </div>
-                    </div>
-                    <div class="form-group text-center m-t-20">
-                        <div class="col-xs-12">
-                            <button class="btn btn-primary btn-lg btn-block text-uppercase waves-effect waves-light" type="submit">Сброс</button>
-                        </div>
-                    </div>
-                </form>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 m-t-10 text-center">
-                        <a href="https://oauth.vk.com/authorize?client_id=6733997&display=page&redirect_uri=http://localhost:8080/auth&scope=friends&response_type=code&v=5.87"><button
-                                align="center"
-                                class="sharer"
-                                data-sharer="vk"
-                        >
-                            <i class="fa fa-vk"></i>
-                            VK
-                        </button></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- ============================================================== -->
-<!-- End Wrapper -->
-<!-- ============================================================== -->
-<!-- ============================================================== -->
-<!-- All Jquery -->
-<!-- ============================================================== -->
-<script src="${contextPath}/resources/assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
-<!-- Bootstrap tether Core JavaScript -->
-<script src="${contextPath}/resources/assets/node_modules/popper/popper.min.js"></script>
-<script src="${contextPath}/resources/js/bootstrap.min.js"></script>
-<!--Custom JavaScript -->
-<script type="text/javascript">
-    $(function() {
-        $(".preloader").fadeOut();
-    });
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="resources/js/main.js"></script>
+<script src="resources/js/auth.js"></script>
 
-    // ==============================================================
-    // Login and Recover Password
-    // ==============================================================
-    $('#to-recover').on("click", function() {
-        $("#loginform").slideUp();
-        $("#recoverform").fadeIn();
-    });
-</script>
 
 </body>
-
 </html>
