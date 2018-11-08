@@ -1,19 +1,20 @@
 
 -- DROP  DATABASE IF EXISTS promo;
-
+drop database promo;
 CREATE DATABASE IF NOT EXISTS promo;
-
-DROP TABLE IF EXISTS `promo`.`promoDislikes`;
-DROP TABLE IF EXISTS `promo`.`promoLikes`;
-DROP TABLE IF EXISTS `promo`.`shopDislikes`;
-DROP TABLE IF EXISTS `promo`.`shopLikes`;
-DROP TABLE IF EXISTS `promo`.`promoComments`;
-DROP TABLE IF EXISTS `promo`.`shopComments`;
+DROP TABLE IF EXISTS `promo`.`statistics`;
+DROP TABLE IF EXISTS `promo`.`socialNetworks`;
 DROP TABLE IF EXISTS `promo`.`promocodes`;
+DROP TABLE IF EXISTS `promo`.`feedback`;
 DROP TABLE IF EXISTS `promo`.`users`;
-DROP TABLE IF EXISTS `promo`.`groups`;
 DROP TABLE IF EXISTS `promo`.`shops`;
-
+DROP TABLE IF EXISTS `promo`.`sequence`;
+DROP TABLE IF EXISTS `promo`.`operations`;
+DROP TABLE IF EXISTS `promo`.`groups`;
+DROP TABLE IF EXISTS `promo`.`entities`;
+DROP TABLE IF EXISTS `promo`.`comments`;
+DROP TABLE IF EXISTS `promo`.`categories`;
+DROP TABLE IF EXISTS `promo`.`socialNetworksList`;
 
 -- ************************************** `groups`
 
@@ -44,16 +45,12 @@ CREATE TABLE `promo`.`shops`
 
 
 -- ************************************** `users`
-
 CREATE TABLE `promo`.`users`
 (
-  `id`       INTEGER NOT NULL AUTO_INCREMENT ,
+  `id`       INTEGER NOT NULL ,
   `login`    VARCHAR(177) NOT NULL UNIQUE,
   `email`    VARCHAR(255) NOT NULL UNIQUE,
   `password` VARCHAR(100) NOT NULL ,
-  `vkID`      INTEGER UNIQUE,
-  `rating`   INTEGER NOT NULL DEFAULT 0,
-  `session`   VARCHAR(40) NULL,
   `lastLogin` DATETIME NULL,
   `groupID`  INTEGER NOT NULL,
 
@@ -62,24 +59,41 @@ CREATE TABLE `promo`.`users`
 );
 
 
+-- ************************************** `socialNetworksList`
 
--- ************************************** `shopComments`
-
-CREATE TABLE `promo`.`shopComments`
+CREATE TABLE `promo`.`socialNetworksList`
 (
-  `id`      INTEGER NOT NULL AUTO_INCREMENT ,
-  `comment` MEDIUMTEXT NOT NULL ,
-  `time`    DATETIME NOT NULL ,
-  `userID`  INTEGER NOT NULL ,
-  `shopID`  INTEGER NOT NULL ,
-
-  PRIMARY KEY (`id`),
-  FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
-  FOREIGN KEY (`shopID`) REFERENCES `shops` (`id`)
+ `id`   integer NOT NULL ,
+ `name` varchar(20) NOT NULL ,
+PRIMARY KEY (`id`)
 );
 
 
+-- ************************************** `socialNetworks`
 
+CREATE TABLE `promo`.`socialNetworks`
+(
+ `id`               integer NOT NULL AUTO_INCREMENT,
+ `socialNetworkID`  integer NOT NULL ,
+ `identificator`    varchar(40) NOT NULL ,
+ `userID`           integer NOT NULL ,
+PRIMARY KEY (`id`),
+FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
+FOREIGN KEY (`socialNetworkID`) REFERENCES `socialNetworksList` (`id`)
+);
+
+
+-- ************************************** `categories`
+
+CREATE TABLE `promo`.`categories`
+(
+ `id`          integer NOT NULL ,
+ `name`        varchar(40) NOT NULL ,
+ `parentID`    integer NOT NULL ,
+ `description` text NOT NULL ,
+PRIMARY KEY (`id`),
+FOREIGN KEY (`parentID`) REFERENCES `categories` (`id`)
+);
 
 -- ************************************** `promocodes`
 
@@ -92,118 +106,118 @@ CREATE TABLE `promo`.`promocodes`
   `description` MEDIUMTEXT NULL ,
   `userID`      INTEGER NOT NULL ,
   `shopId`      INTEGER NOT NULL ,
+  `parentID`    INTEGER NOT NULL ,
 
   PRIMARY KEY (`PromoID`),
   FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
-  FOREIGN KEY (`shopId`) REFERENCES `shops` (`id`)
+  FOREIGN KEY (`shopId`) REFERENCES `shops` (`id`),
+  FOREIGN KEY (`parentID`) REFERENCES `categories` (`id`)
+);
+
+-- ************************************** `entities`
+
+CREATE TABLE `promo`.`entities`
+(
+ `id`   integer NOT NULL ,
+ `name` varchar(20) NOT NULL ,
+PRIMARY KEY (`id`)
 );
 
 
 
--- ************************************** `promoComments`
+-- ************************************** `operations`
 
-CREATE TABLE `promo`.`promoComments`
+CREATE TABLE `promo`.`operations`
 (
-  `id`      INTEGER NOT NULL AUTO_INCREMENT ,
-  `comment` MEDIUMTEXT NOT NULL ,
-  `time`    DATETIME NOT NULL ,
-  `userID`  INTEGER NOT NULL ,
-  `promoID` INTEGER NOT NULL ,
-
-  PRIMARY KEY (`id`),
-  FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
-  FOREIGN KEY (`promoID`) REFERENCES `promocodes` (`PromoID`)
+ `id`            integer NOT NULL ,
+ `operationType` varchar(20) NOT NULL ,
+PRIMARY KEY (`id`)
 );
 
--- ************************************** `shopDislikes`
 
-CREATE TABLE `promo`.`shopDislikes`
+-- ************************************** `sequence`
+
+CREATE TABLE `promo`.`sequence`
 (
- `id`     INTEGER NOT NULL AUTO_INCREMENT ,
- `userID` INTEGER NOT NULL ,
- `shopID` INTEGER NOT NULL ,
+ `id`   integer NOT NULL AUTO_INCREMENT ,
+ `stat` tinyint NOT NULL ,
+PRIMARY KEY (`id`)
+);
 
+
+
+-- ************************************** `comments`
+
+CREATE TABLE `promo`.`comments`
+(
+ `id`   integer NOT NULL ,
+ `text` text NOT NULL ,
+PRIMARY KEY (`id`)
+);
+
+
+
+
+-- ************************************** `feedback`
+
+CREATE TABLE `promo`.`feedback`
+(
+ `id`           integer NOT NULL ,
+ `operationID`  integer NOT NULL ,
+ `entityID`     integer NOT NULL ,
+ `entityNameID` integer NOT NULL ,
+ `ownerID`      integer NOT NULL ,
+ `commentID`    integer ,
 PRIMARY KEY (`id`),
-FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
-FOREIGN KEY (`shopID`) REFERENCES `shops` (`id`)
+FOREIGN KEY (`operationID`) REFERENCES `operations` (`id`),
+FOREIGN KEY (`entityNameID`) REFERENCES `entities` (`id`),
+FOREIGN KEY (`ownerID`) REFERENCES `users` (`id`),
+FOREIGN KEY (`commentID`) REFERENCES `comments` (`id`)
 );
 
 
 
--- ************************************** `shopLikes`
 
-CREATE TABLE `promo`.`shopLikes`
+
+
+-- ************************************** `statistics`
+
+CREATE TABLE `promo`.`statistics`
 (
- `id`     INTEGER NOT NULL AUTO_INCREMENT ,
- `userID` INTEGER NOT NULL ,
- `shopID` INTEGER NOT NULL ,
-
+ `id`                integer NOT NULL ,
+ `date`              datetime NOT NULL ,
+ `bestPromoID`       integer NOT NULL ,
+ `worstPromoID`      integer NOT NULL ,
+ `uniqUsersCount`    integer NOT NULL ,
+ `uniqLikesCount`    integer NOT NULL ,
+ `uniqDislikesCount` integer NOT NULL ,
 PRIMARY KEY (`id`),
-FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
-FOREIGN KEY (`shopID`) REFERENCES `shops` (`id`)
-);
-
-
--- ************************************** `promoDislikes`
-
-CREATE TABLE `promo`.`promoDislikes`
-(
- `id`      INTEGER NOT NULL AUTO_INCREMENT ,
- `PromoID` INTEGER NOT NULL ,
- `userID`  INTEGER NOT NULL ,
-
-PRIMARY KEY (`id`),
-FOREIGN KEY (`PromoID`) REFERENCES `promocodes` (`PromoID`),
-FOREIGN KEY (`userID`) REFERENCES `users` (`id`)
+FOREIGN KEY (`bestPromoID`) REFERENCES `promocodes` (`PromoID`),
+FOREIGN KEY (`worstPromoID`) REFERENCES `promocodes` (`PromoID`)
 );
 
 
 
--- ************************************** `promoLikes`
 
-CREATE TABLE `promo`.`promoLikes`
-(
- `id`      INTEGER NOT NULL AUTO_INCREMENT ,
- `PromoID` INTEGER NOT NULL ,
- `userID`  INTEGER NOT NULL ,
 
-PRIMARY KEY (`id`),
-FOREIGN KEY (`PromoID`) REFERENCES `promocodes` (`PromoID`),
-FOREIGN KEY (`userID`) REFERENCES `users` (`id`)
-);
 
 DROP TRIGGER IF EXISTS `promo`.`delete_user`;
 CREATE TRIGGER `promo`.`delete_user` before delete ON `promo`.`users`
 FOR EACH ROW BEGIN
 UPDATE `promocodes` SET userID='1' WHERE `promocodes`.`userID`=OLD.`id`;
-DELETE FROM `promo`.`promolikes` WHERE `promolikes`.userID=OLD.`id`;
-DELETE FROM `promo`.`promodislikes` WHERE `promodislikes`.userID=OLD.`id`;
-DELETE FROM `promo`.`shoplikes` WHERE `shoplikes`.userID=OLD.`id`;
-DELETE FROM `promo`.`shopdislikes` WHERE `shopdislikes`.userID=OLD.`id`;
+DELETE FROM `promo`.`feedback` WHERE `feedback`.ownerID=OLD.`id` or `feedback`.entityID=OLD.`id`;
 END;
 
-DROP TRIGGER IF EXISTS `promo`.`addPromoLike`;
-CREATE TRIGGER `promo`.`addPromoLike` BEFORE INSERT ON `promo`.`promolikes`
-FOR EACH ROW BEGIN
-DELETE FROM `promo`.`promodislikes` WHERE `promodislikes`.userID=NEW.userID;
-END;
 
-DROP TRIGGER IF EXISTS `promo`.`addPromoDislike`;
-CREATE TRIGGER `promo`.`addPromoDislike` BEFORE INSERT ON `promo`.`promodislikes`
-FOR EACH ROW BEGIN
-DELETE FROM `promo`.`promolikes` WHERE `promolikes`.userID=NEW.userID;
-END;
+CREATE FUNCTION promo.next_id() RETURNS INTEGER DETERMINISTIC
+   BEGIN
+     DECLARE _id INTEGER;
+     INSERT sequence (stat) VALUES (1);
+		SELECT max(id) INTO _id FROM  sequence WHERE  stat = 1;
+      DELETE FROM sequence WHERE stat = 0;
+      UPDATE sequence SET stat = 0 WHERE stat = 1;
+   RETURN _id;
+   END;
 
-DROP TRIGGER IF EXISTS `promo`.`addShopLike`;
-CREATE TRIGGER `promo`.`addShopLike` BEFORE INSERT ON `promo`.`shoplikes`
-FOR EACH ROW BEGIN
-DELETE FROM `promo`.`shopdislikes` WHERE `shopdislikes`.userID=NEW.userID;
-END;
 
-DROP TRIGGER IF EXISTS `promo`.`addShopDislike`;
-CREATE TRIGGER `promo`.`addShopDislike` BEFORE INSERT ON `promo`.`shopdislikes`
-FOR EACH ROW BEGIN
-DELETE FROM `promo`.`shoplikes` WHERE `shoplikes`.userID=NEW.userID;
-END;
-
-INSERT INTO `promo`.`users` (id,login,email,password,groupID) VALUE (1,Administrator,Admin@admin.ru,1234,1);
+INSERT INTO `promo`.`users` (id,login,email,password,groupID,lastLogin) VALUE (promo.next_id(),'Administrator','Admin@admin.ru',1234,1, '2008-10-23 10:37:22');
