@@ -17,15 +17,13 @@ public class Tmp
     HttpURLConnection connection = (HttpURLConnection)obj.openConnection();
     connection.setRequestMethod("GET");
     BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
-    StringBuffer response = new StringBuffer();
+    StringBuilder response = new StringBuilder();
     int c;
     while ((c = in.read()) != -1)
     {
       response.append((char)c);
     }
-    
-    JSONObject jsonObj = new JSONObject(response.toString());
-    
-    return jsonObj;
+
+    return new JSONObject(response.toString());
   }
 }

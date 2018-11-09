@@ -15,11 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="okru_correct@95.183.11.110" uuid="4557f933-20d6-4ef9-9db1-78efdee5b952">
+    <data-source source="LOCAL" name="prom@localhost" uuid="45b057eb-6b90-4b07-aee5-885a9fa55b3a">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://95.183.11.110:3306/okru_correct</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/prom</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

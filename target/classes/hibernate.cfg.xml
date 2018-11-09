@@ -12,17 +12,19 @@
     <property name="connection.username">root</property>
     <property name="connection.password"></property>
 
-    <!-- DB schema will be updated if needed -->
-    <!-- <property name="hbm2ddl.auto">update</property> -->
+
     <mapping class="com.scnetcracker.entity.GroupsEntity"/>
     <mapping class="com.scnetcracker.entity.PromocodesEntity"/>
-    <mapping class="com.scnetcracker.entity.PromodislikesEntity"/>
     <mapping class="com.scnetcracker.entity.PromocommentsEntity"/>
-    <mapping class="com.scnetcracker.entity.UsersEntity"/>
-    <mapping class="com.scnetcracker.entity.ShopsEntity"/>
-    <mapping class="com.scnetcracker.entity.ShoplikesEntity"/>
+    <mapping class="com.scnetcracker.entity.PromolikesEntity"/>
+    <mapping class="com.scnetcracker.entity.PromodislikesEntity"/>
     <mapping class="com.scnetcracker.entity.ShopcommentsEntity"/>
     <mapping class="com.scnetcracker.entity.ShopdislikesEntity"/>
-    <mapping class="com.scnetcracker.entity.PromolikesEntity"/>
+    <mapping class="com.scnetcracker.entity.ShoplikesEntity"/>
+    <mapping class="com.scnetcracker.entity.ShopsEntity"/>
+    <mapping class="com.scnetcracker.entity.UsersEntity"/>
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hbm2ddl.auto">update</property> -->
   </session-factory>
 </hibernate-configuration>

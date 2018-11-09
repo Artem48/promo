@@ -12,7 +12,7 @@ public class HibernateSessionFactory
   
   public HibernateSessionFactory() {}
   
-  protected static SessionFactory buildSessionFactory()
+  private static SessionFactory buildSessionFactory()
   {
     StandardServiceRegistry registry = new StandardServiceRegistryBuilder().configure().build();
     try {

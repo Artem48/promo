@@ -26,10 +26,8 @@ public class PromodislikesEntity
     if ((o == null) || (getClass() != o.getClass())) { return false;
     }
     PromodislikesEntity that = (PromodislikesEntity)o;
-    
-    if (id != id) { return false;
-    }
-    return true;
+
+    return id == id;
   }
   
   public int hashCode()

@@ -1,4 +1,6 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+
 <%@ page isELIgnored="false" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
 
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
@@ -17,7 +19,9 @@
 <body>
 <div id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Название</a>
+        <a class="navbar-brand" href="#">
+            Название
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,6 +44,17 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
             </form>
+
+            <c:choose>
+                <c:when test="${sessionScope.user == null}">
+                    <p><a href="enter">Вход</a>/<a href="registration">Регистрация</a></p>
+
+                </c:when>
+                <c:otherwise>
+                    <p>Пользователь: <a href="profile"><%=session.getAttribute("user")%></a></p>
+                </c:otherwise>
+            </c:choose>
+
         </div>
     </nav>
 </div>

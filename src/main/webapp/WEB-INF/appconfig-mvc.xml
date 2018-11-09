@@ -16,8 +16,5 @@
             <value>.jsp</value>
         </property>
     </bean>
-    <bean class="org.springframework.session.web.context.AbstractHttpSessionApplicationInitializer" abstract="true">
-
-    </bean>
 
 </beans>

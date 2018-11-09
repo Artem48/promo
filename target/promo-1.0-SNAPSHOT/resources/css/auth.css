@@ -1,0 +1,48 @@
+.container {
+	height: 100%;
+	display: flex;
+}
+
+.reg-block {
+	width:50%;
+	background-color: rgba(255,255,255,0.5);
+	margin:auto;
+	vertical-align: center;
+	padding: 5%;
+}
+.reg-block>h3 {
+	text-align: center;
+}
+.reg-block input {
+    width: 100%;
+    border: navajowhite;
+    border-radius: 10px;
+    line-height: 30px;
+    outline: none;
+    margin-bottom: 15px;
+    text-indent: 10px;
+}
+
+#subButton {
+	margin-top: 40px;
+    background-color: blue;
+    color: white;
+    width: 40%;
+    cursor: pointer;
+    display: block;
+    border: 1px solid white;
+    margin: 0px auto;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+html,body {
+	height: 100%;
+	position: relative;
+	background:url('../img/login-register.jpg');
+}
+
+.error {
+	color: red;
+    padding: 0 30px;
+}

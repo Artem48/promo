@@ -10,6 +10,8 @@ public class PromocodesEntity {
   private Date issueDate;
   private Date expireDate;
   private String description;
+  private int userId;
+  private int shopId;
   
   public PromocodesEntity() {}
   
@@ -41,7 +43,27 @@ public class PromocodesEntity {
   public void setIssueDate(Date issueDate) {
     this.issueDate = issueDate;
   }
-  
+
+  @javax.persistence.Basic
+  @javax.persistence.Column(name="userId")
+  public int getUserId() {
+    return userId;
+  }
+
+  public void setUserId(int userId) {
+    this.userId = userId;
+  }
+
+  @javax.persistence.Basic
+  @javax.persistence.Column(name="shopId")
+  public int getShopId() {
+    return shopId;
+  }
+
+  public void setShopId(int shopId) {
+    this.shopId = shopId;
+  }
+
   @javax.persistence.Basic
   @javax.persistence.Column(name="expireDate")
   public Date getExpireDate() {
