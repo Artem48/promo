@@ -1,20 +1,21 @@
 package com.scnetcracker.dao;
 
-import com.scnetcracker.entity.PromocodesEntity;
 import com.scnetcracker.entity.ShopsEntity;
 import com.scnetcracker.entity.UsersEntity;
+import com.scnetcracker.entity.PromcodesEntity;
 import com.scnetcracker.utils.HibernateSessionFactory;
 import org.hibernate.Query;
 import org.hibernate.Session;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-@org.springframework.stereotype.Repository
+@Repository
 public class UserImp implements User
 {
   public UserImp() {}
   
-  public void createUser(String login, String password, String email, int vkId)
+  public void createUser(String login, String password, String email)
   {
     Session session = HibernateSessionFactory.getSessionFactory().openSession();
     
@@ -24,8 +25,7 @@ public class UserImp implements User
     user.setLogin(login);
     user.setPassword(password);
     user.setEmail(email);
-    user.setVkId(Integer.valueOf(vkId));
-    user.setGroupID(1);
+    user.setGroupId(1);
     
     session.save(user);
     session.getTransaction().commit();
@@ -36,9 +36,7 @@ public class UserImp implements User
   @Override
   public List getUser(String email) {
     Session session = HibernateSessionFactory.getSessionFactory().openSession();
-
     session.beginTransaction();
-
     Query query = session.createQuery("from UsersEntity where email = :Email");
     query.setParameter("Email", email);
 
@@ -47,31 +45,5 @@ public class UserImp implements User
     return list;
   }
 
-  @Override
-  public List getUserPromo(int userId) {
-    Session session = HibernateSessionFactory.getSessionFactory().openSession();
 
-    session.beginTransaction();
-
-    Query query = session.createQuery("from PromocodesEntity WHERE userId = :userId");
-    query.setParameter("userId", userId);
-
-    List<PromocodesEntity> list = (List<PromocodesEntity>)query.list();
-
-    return list;
-  }
-
-  @Override
-  public List getShop(int shopId) {
-    Session session = HibernateSessionFactory.getSessionFactory().openSession();
-
-    session.beginTransaction();
-
-    Query query = session.createQuery("from ShopsEntity WHERE id = :shopId");
-    query.setParameter("shopId", shopId);
-
-    List<ShopsEntity> list = (List<ShopsEntity>)query.list();
-
-    return list;
-  }
 }
