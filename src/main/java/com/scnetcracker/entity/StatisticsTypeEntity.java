@@ -3,10 +3,10 @@ package com.scnetcracker.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "sequence", schema = "prom", catalog = "")
-public class SequenceEntity {
+@Table(name = "statistics_type", schema = "promo", catalog = "")
+public class StatisticsTypeEntity {
     private int id;
-    private byte stat;
+    private String name;
 
     @Id
     @Column(name = "id")
@@ -19,13 +19,13 @@ public class SequenceEntity {
     }
 
     @Basic
-    @Column(name = "stat")
-    public byte getStat() {
-        return stat;
+    @Column(name = "name")
+    public String getName() {
+        return name;
     }
 
-    public void setStat(byte stat) {
-        this.stat = stat;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
@@ -33,10 +33,10 @@ public class SequenceEntity {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        SequenceEntity that = (SequenceEntity) o;
+        StatisticsTypeEntity that = (StatisticsTypeEntity) o;
 
         if (id != that.id) return false;
-        if (stat != that.stat) return false;
+        if (name != null ? !name.equals(that.name) : that.name != null) return false;
 
         return true;
     }
@@ -44,7 +44,7 @@ public class SequenceEntity {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + (int) stat;
+        result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
     }
 }

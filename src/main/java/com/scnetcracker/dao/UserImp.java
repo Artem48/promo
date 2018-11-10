@@ -1,8 +1,6 @@
 package com.scnetcracker.dao;
 
-import com.scnetcracker.entity.ShopsEntity;
 import com.scnetcracker.entity.UsersEntity;
-import com.scnetcracker.entity.PromcodesEntity;
 import com.scnetcracker.utils.HibernateSessionFactory;
 import org.hibernate.Query;
 import org.hibernate.Session;

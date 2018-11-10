@@ -4,13 +4,12 @@ import javax.persistence.*;
 import java.sql.Timestamp;
 
 @Entity
-@Table(name = "statistics", schema = "prom", catalog = "")
+@Table(name = "statistics", schema = "promo", catalog = "")
 public class StatisticsEntity {
     private int id;
     private Timestamp date;
-    private int uniqUsersCount;
-    private int uniqLikesCount;
-    private int uniqDislikesCount;
+    private int type;
+    private Integer value;
 
     @Id
     @Column(name = "id")
@@ -33,33 +32,23 @@ public class StatisticsEntity {
     }
 
     @Basic
-    @Column(name = "uniqUsersCount")
-    public int getUniqUsersCount() {
-        return uniqUsersCount;
+    @Column(name = "type")
+    public int getType() {
+        return type;
     }
 
-    public void setUniqUsersCount(int uniqUsersCount) {
-        this.uniqUsersCount = uniqUsersCount;
-    }
-
-    @Basic
-    @Column(name = "uniqLikesCount")
-    public int getUniqLikesCount() {
-        return uniqLikesCount;
-    }
-
-    public void setUniqLikesCount(int uniqLikesCount) {
-        this.uniqLikesCount = uniqLikesCount;
+    public void setType(int type) {
+        this.type = type;
     }
 
     @Basic
-    @Column(name = "uniqDislikesCount")
-    public int getUniqDislikesCount() {
-        return uniqDislikesCount;
+    @Column(name = "value")
+    public Integer getValue() {
+        return value;
     }
 
-    public void setUniqDislikesCount(int uniqDislikesCount) {
-        this.uniqDislikesCount = uniqDislikesCount;
+    public void setValue(Integer value) {
+        this.value = value;
     }
 
     @Override
@@ -70,10 +59,9 @@ public class StatisticsEntity {
         StatisticsEntity that = (StatisticsEntity) o;
 
         if (id != that.id) return false;
-        if (uniqUsersCount != that.uniqUsersCount) return false;
-        if (uniqLikesCount != that.uniqLikesCount) return false;
-        if (uniqDislikesCount != that.uniqDislikesCount) return false;
+        if (type != that.type) return false;
         if (date != null ? !date.equals(that.date) : that.date != null) return false;
+        if (value != null ? !value.equals(that.value) : that.value != null) return false;
 
         return true;
     }
@@ -82,9 +70,8 @@ public class StatisticsEntity {
     public int hashCode() {
         int result = id;
         result = 31 * result + (date != null ? date.hashCode() : 0);
-        result = 31 * result + uniqUsersCount;
-        result = 31 * result + uniqLikesCount;
-        result = 31 * result + uniqDislikesCount;
+        result = 31 * result + type;
+        result = 31 * result + (value != null ? value.hashCode() : 0);
         return result;
     }
 }

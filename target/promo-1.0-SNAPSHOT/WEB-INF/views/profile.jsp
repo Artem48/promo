@@ -1,8 +1,10 @@
 <%@ page import="com.scnetcracker.service.UserServiceImp" %>
 <%@ page import="com.scnetcracker.entity.UsersEntity" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.scnetcracker.entity.PromocodesEntity" %>
 <%@ page import="com.scnetcracker.entity.ShopsEntity" %>
+<%@ page import="com.scnetcracker.service.PromoServiceImp" %>
+<%@ page import="com.scnetcracker.service.ShopServiceImp" %>
+<%@ page import="com.scnetcracker.entity.PromocodesEntity" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
@@ -61,9 +63,12 @@
     <div class="card-group" id="promos">
         <%
             UserServiceImp user = new UserServiceImp();
+            PromoServiceImp promo = new PromoServiceImp();
+            ShopServiceImp shopService = new ShopServiceImp();
+
             List<UsersEntity> userD = user.getUser((String) session.getAttribute("user"));
             for(UsersEntity u : userD){
-                List<PromocodesEntity> list = user.getUserPromo(u.getId());
+                List<PromocodesEntity> list = promo.getUserPromo(u.getId());
                 for(PromocodesEntity w : list){
 
         %>
@@ -73,7 +78,7 @@
                                 <div class="card-block">
                                     <h4 class="card-title card-middle-text">
                                         <%
-                                            List<ShopsEntity> shops = user.getShop(w.getShopId());
+                                            List<ShopsEntity> shops = shopService.getShop(w.getShopId());
                                             for(ShopsEntity shop : shops){
                                         %>
                                         <a href="<%=shop.getUrl()%>"><%=shop.getName()%></a>

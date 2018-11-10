@@ -1,6 +1,6 @@
 package com.scnetcracker.dao;
 
-import com.scnetcracker.entity.PromcodesEntity;
+import com.scnetcracker.entity.PromocodesEntity;
 import com.scnetcracker.utils.HibernateSessionFactory;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -17,7 +17,7 @@ public class PromoImp implements Promo {
         Query query = session.createQuery("from PromocodesEntity WHERE userId = :userId");
         query.setParameter("userId", userId);
 
-        List<PromcodesEntity> list = (List<PromcodesEntity>) query.list();
+        List<PromocodesEntity> list = (List<PromocodesEntity>) query.list();
 
         return list;
     }

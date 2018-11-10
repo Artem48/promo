@@ -3,7 +3,7 @@ package com.scnetcracker.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "comments", schema = "prom", catalog = "")
+@Table(name = "comments", schema = "promo", catalog = "")
 public class CommentsEntity {
     private int id;
     private String text;

@@ -3,10 +3,11 @@ package com.scnetcracker.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "categories", schema = "prom", catalog = "")
+@Table(name = "categories", schema = "promo", catalog = "")
 public class CategoriesEntity {
     private int id;
     private String name;
+    private Integer parentId;
     private String description;
 
     @Id
@@ -30,6 +31,16 @@ public class CategoriesEntity {
     }
 
     @Basic
+    @Column(name = "parentID")
+    public Integer getParentId() {
+        return parentId;
+    }
+
+    public void setParentId(Integer parentId) {
+        this.parentId = parentId;
+    }
+
+    @Basic
     @Column(name = "description")
     public String getDescription() {
         return description;
@@ -48,6 +59,7 @@ public class CategoriesEntity {
 
         if (id != that.id) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (parentId != null ? !parentId.equals(that.parentId) : that.parentId != null) return false;
         if (description != null ? !description.equals(that.description) : that.description != null) return false;
 
         return true;
@@ -57,6 +69,7 @@ public class CategoriesEntity {
     public int hashCode() {
         int result = id;
         result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (parentId != null ? parentId.hashCode() : 0);
         result = 31 * result + (description != null ? description.hashCode() : 0);
         return result;
     }

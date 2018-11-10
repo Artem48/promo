@@ -120,9 +120,9 @@ CREATE TABLE `promo`.`entities`
 
 
 
--- ************************************** `operations`
+-- ************************************** `operation_types`
 
-CREATE TABLE `promo`.`operations`
+CREATE TABLE `promo`.`operation_types`
 (
   `id`            integer NOT NULL ,
   `operationType` varchar(20) NOT NULL ,
@@ -139,9 +139,9 @@ CREATE TABLE `promo`.`comments`
   PRIMARY KEY (`id`)
 );
 
--- ************************************** `feedback`
+-- ************************************** `operations`
 
-CREATE TABLE `promo`.`feedback`
+CREATE TABLE `promo`.`operations`
 (
   `id`           integer NOT NULL ,
   `operationID`  integer NOT NULL ,
@@ -149,8 +149,10 @@ CREATE TABLE `promo`.`feedback`
   `entityNameID` integer NOT NULL ,
   `ownerID`      integer NOT NULL ,
   `commentID`    integer ,
+  `value`		 integer,
+
   PRIMARY KEY (`id`),
-  FOREIGN KEY (`operationID`) REFERENCES `operations` (`id`),
+  FOREIGN KEY (`operationID`) REFERENCES `operation_types` (`id`),
   FOREIGN KEY (`entityNameID`) REFERENCES `entities` (`id`),
   FOREIGN KEY (`ownerID`) REFERENCES `users` (`id`),
   FOREIGN KEY (`commentID`) REFERENCES `comments` (`id`)
@@ -159,6 +161,13 @@ CREATE TABLE `promo`.`feedback`
 
 -- ************************************** `statistics`
 
+CREATE TABLE `promo`.`statistics_type`
+(
+  `id`	integer NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+    PRIMARY KEY (`id`)
+);
+
 CREATE TABLE `promo`.`statistics`
 (
   `id`                integer NOT NULL AUTO_INCREMENT,
@@ -166,14 +175,10 @@ CREATE TABLE `promo`.`statistics`
   `type`			  integer NOT NULL,
   `value`			  integer,
   PRIMARY KEY (`id`),
-  FOREIGN KEY (`type`) REFERENCES `statistics_type` (`id`),
+  FOREIGN KEY (`type`) REFERENCES `statistics_type` (`id`)
 );
 
-CREATE TABLE `promo`.`statistics_type`
-(
- `id`	integer NOT NULL AUTO_INCREMENT,
- `name` varchar(30) NOT NULL
-);
+
 
 
 
@@ -194,7 +199,7 @@ INSERT INTO `promo`.`groups`(name) VALUES('Administrator');
 INSERT INTO `promo`.`groups`(name) VALUES('Moderator');
 INSERT INTO `promo`.`groups`(name) VALUES('User');
 
-INSERT INTO `promo`.`users` (login,email,password,groupID) VALUE ('Administrator','Admin@admin.ru',1234,1);
+INSERT INTO `promo`.`users` (login,email,password,groupID) VALUE ('Administrator','Admin@admin.ru','81dc9bdb52d04dc20036dbd8313ed055',1);
 
 INSERT INTO `promo`.`shops` (name,URL) VALUE ('Юлмарт','https://www.ulmaurt.ru/');
 INSERT INTO `promo`.`shops` (name,URL) VALUE ('Твое','https://www.tvoe.ru');

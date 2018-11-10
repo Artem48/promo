@@ -2,9 +2,9 @@
 <%@ page import="com.scnetcracker.entity.UsersEntity" %>
 <%@ page import="java.util.List" %>
 <%@ page import="com.scnetcracker.entity.ShopsEntity" %>
-<%@ page import="com.scnetcracker.entity.PromcodesEntity" %>
 <%@ page import="com.scnetcracker.service.PromoServiceImp" %>
 <%@ page import="com.scnetcracker.service.ShopServiceImp" %>
+<%@ page import="com.scnetcracker.entity.PromocodesEntity" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 
@@ -68,8 +68,8 @@
 
             List<UsersEntity> userD = user.getUser((String) session.getAttribute("user"));
             for(UsersEntity u : userD){
-                List<PromcodesEntity> list = promo.getUserPromo(u.getId());
-                for(PromcodesEntity w : list){
+                List<PromocodesEntity> list = promo.getUserPromo(u.getId());
+                for(PromocodesEntity w : list){
 
         %>
                         <div class="col-md-3">
@@ -88,7 +88,7 @@
                                     </h4>
                                     <p class="card-text"><%=w.getDescription()%></p>
                                     <p class="card-text"><small class="text-muted">был добавлен <%=w.getIssueDate()%></small></p>
-                                    <a href="#" class="btn btn-primary card-middle-button"><%=w.getProm()%></a>
+                                    <a href="#" class="btn btn-primary card-middle-button"><%=w.getPromo()%></a>
                                 </div>
                             </div>
                         </div>

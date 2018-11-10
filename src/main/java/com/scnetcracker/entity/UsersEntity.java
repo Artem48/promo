@@ -1,17 +1,15 @@
 package com.scnetcracker.entity;
 
 import javax.persistence.*;
-import java.sql.Timestamp;
 
 @Entity
-@Table(name = "users", schema = "prom", catalog = "")
+@Table(name = "users", schema = "promo", catalog = "")
 public class UsersEntity {
     private int id;
     private String login;
     private String email;
     private String password;
-    private Timestamp lastLogin;
-    private int GroupId;
+    private int groupId;
 
     @Id
     @Column(name = "id")
@@ -54,23 +52,13 @@ public class UsersEntity {
     }
 
     @Basic
-    @Column(name = "GroupId")
+    @Column(name = "groupID")
     public int getGroupId() {
-        return GroupId;
+        return groupId;
     }
 
-    public void setGroupId(int GroupId) {
-        this.GroupId = GroupId;
-    }
-
-    @Basic
-    @Column(name = "lastLogin")
-    public Timestamp getLastLogin() {
-        return lastLogin;
-    }
-
-    public void setLastLogin(Timestamp lastLogin) {
-        this.lastLogin = lastLogin;
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
     }
 
     @Override
@@ -81,10 +69,10 @@ public class UsersEntity {
         UsersEntity that = (UsersEntity) o;
 
         if (id != that.id) return false;
+        if (groupId != that.groupId) return false;
         if (login != null ? !login.equals(that.login) : that.login != null) return false;
         if (email != null ? !email.equals(that.email) : that.email != null) return false;
         if (password != null ? !password.equals(that.password) : that.password != null) return false;
-        if (lastLogin != null ? !lastLogin.equals(that.lastLogin) : that.lastLogin != null) return false;
 
         return true;
     }
@@ -95,7 +83,7 @@ public class UsersEntity {
         result = 31 * result + (login != null ? login.hashCode() : 0);
         result = 31 * result + (email != null ? email.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
-        result = 31 * result + (lastLogin != null ? lastLogin.hashCode() : 0);
+        result = 31 * result + groupId;
         return result;
     }
 }
