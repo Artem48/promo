@@ -1,5 +1,10 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ page import="java.util.List" %>
+<%@ page import="com.scnetcracker.entity.ShopsEntity" %>
+<%@ page import="com.scnetcracker.service.PromoServiceImp" %>
+<%@ page import="com.scnetcracker.service.ShopServiceImp" %>
+<%@ page import="com.scnetcracker.entity.PromocodesEntity" %>
 
 <%@ page isELIgnored="false" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
 
@@ -29,7 +34,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Категории</a>
+                    <a class="nav-link" href="categories">Категории</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="shops">Магазины</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -38,6 +46,9 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Пример</a>
                     </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="addpromo">Добавить промокод</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -52,6 +63,7 @@
                 </c:when>
                 <c:otherwise>
                     <p>Пользователь: <a href="profile"><%=session.getAttribute("user")%></a></p>
+                    <a href="logout" class="btn btn-outline-success my-2 my-sm-0">Выйти</a>
                 </c:otherwise>
             </c:choose>
 
@@ -60,107 +72,142 @@
 </div>
 <!-- Body -->
 <div id="container">
-    <div class="card-group">
+    <%--<div class="card-group">--%>
 
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+        <%--<div class="col-md-3">--%>
+            <%--<div class="card card-box">--%>
+                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
+                <%--<div class="card-block">--%>
+                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
+                    <%--<p class="card-text">Длинное описание промокода</p>--%>
+                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
+                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
+                <%--</div>--%>
+            <%--</div>--%>
+        <%--</div>--%>
+
+
+
+    <%--</div>--%>
+        <div class="card-group" id="promos">
+            <%
+                PromoServiceImp promo = new PromoServiceImp();
+                ShopServiceImp shopService = new ShopServiceImp();
+                List<PromocodesEntity> list = promo.getPromosByIssueDate();
+                for(PromocodesEntity w : list){
+
+            %>
+            <div class="col-md-3">
+                <div class="card card-box">
+                    <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title card-middle-text">
+                            <%
+                                List<ShopsEntity> shops = shopService.getShop(w.getShopId());
+                                for(ShopsEntity shop : shops){
+                            %>
+                            <a href="<%=shop.getUrl()%>"><%=shop.getName()%></a>
+                            <%
+                                }
+                            %>
+                        </h4>
+                        <p class="card-text"><%=w.getDescription()%></p>
+                        <p class="card-text"><small class="text-muted">был добавлен <%=w.getIssueDate()%></small></p>
+                        <a href="#" class="btn btn-primary card-middle-button"><%=w.getPromo()%></a>
+                    </div>
                 </div>
             </div>
+
+            <%
+                }
+
+            %>
         </div>
 
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card card-box">
-                <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
-                <div class="card-block">
-                    <h4 class="card-title card-middle-text">Магазин</h4>
-                    <p class="card-text">Длинное описание промокода</p>
-                    <p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>
-                    <a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>
-                </div>
-            </div>
-        </div>
-
-
-
-    </div>
 </div>
 <!-- Footer -->
 <div id="footer"></div>

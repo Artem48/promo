@@ -12,4 +12,11 @@ public class ShopServiceImp implements ShopService{
     public List getShop(int id) {
         return shop.getShop(id);
     }
+
+    public List getShops() {
+        return shop.getShops();
+    }
+//    public int getShopIdByName(String name){
+//
+//    }
 }

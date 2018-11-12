@@ -8,73 +8,46 @@
   <component name="ChangeListManager">
     <list default="true" id="232933e6-01e2-4946-9ecc-bebeba3c15c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2b70a89c-57e5-4e16-b892-63a3b1291bd9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/45b057eb-6b90-4b07-aee5-885a9fa55b3a.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca298b67-2808-4341-91a8-15867f2a16c8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ca298b67-2808-4341-91a8-15867f2a16c8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2260c4dc-e2d8-4de7-827c-3c746bfa8a45.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/2260c4dc-e2d8-4de7-827c-3c746bfa8a45.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CommentsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/EntitiesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/FeedbackEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/GroupsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromcodesEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/SequenceEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/ShopsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/SocialnetworksEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/SocialnetworkslistEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/StatisticsEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/UsersEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/enter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/enter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/UserImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/UserImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/CategoriesEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/CategoriesEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/CommentsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/CommentsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/EntitiesEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/EntitiesEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/FeedbackEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/GroupsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/GroupsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/OperationsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/OperationsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/PromcodesEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/SequenceEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/ShopsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/ShopsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/SocialnetworksEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/SocialnetworksEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/SocialnetworkslistEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/SocialnetworkslistEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/StatisticsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/StatisticsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/UsersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/UsersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/UserServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/GetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/GetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/PostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/PromoImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/ShopImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/ShopImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/Shops.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/Shops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/ShopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/ShopServiceImp.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/HelloController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/UserImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/UserImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/CategoriesEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/CategoriesEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/CommentsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/CommentsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/EntitiesEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/EntitiesEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/FeedbackEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/GroupsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/GroupsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/OperationsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/OperationsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/PromcodesEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/SequenceEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/ShopsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/ShopsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/SocialnetworksEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/SocialnetworksEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/SocialnetworkslistEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/SocialnetworkslistEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/StatisticsEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/StatisticsEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/UsersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/entity/UsersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/UserServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/UserServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/GetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/GetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/PromoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/PromoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/ShopImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/ShopImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/Shops.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/Shops.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/PromoServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/PromoServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/ShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/ShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/ShopServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/ShopServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/enter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/enter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/test.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/css/auth.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/css/auth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/css/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,7 +67,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="promo: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -228,6 +217,64 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-892333878">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="categories" value="2" />
+          <entry key="class" value="6" />
+          <entry key="css" value="7" />
+          <entry key="java" value="48" />
+          <entry key="jpg" value="2" />
+          <entry key="js" value="12" />
+          <entry key="jsp" value="29" />
+          <entry key="promocodes" value="2" />
+          <entry key="rnc" value="1" />
+          <entry key="shops" value="3" />
+          <entry key="sql" value="8" />
+          <entry key="users" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="CSS" value="7" />
+          <entry key="Database Element" value="9" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="48" />
+          <entry key="JSP" value="29" />
+          <entry key="JavaScript" value="12" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="29" />
+          <entry key="java" value="654" />
+          <entry key="js" value="203" />
+          <entry key="jsp" value="556" />
+          <entry key="sql" value="3" />
+          <entry key="txt" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="29" />
+          <entry key="JAVA" value="654" />
+          <entry key="JSP" value="556" />
+          <entry key="JavaScript" value="203" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Scratch" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="promo" />
@@ -237,8 +284,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="338">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="31" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -247,49 +294,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="67" />
+            <state relative-caret-position="365">
+              <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -298,33 +318,84 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/promo.jsp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="68">
+              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+              <folding>
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="20" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://2260c4dc-e2d8-4de7-827c-3c746bfa8a45/schema/promo/table/users">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#382#383#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -336,16 +407,15 @@
       <list>
         <option value="CSS File" />
         <option value="spring-beans.schema" />
-        <option value="JavaScript File" />
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>prodi</find>
       <find>picodi</find>
       <find>input-group</find>
       <find>fontawesom</find>
@@ -374,7 +444,8 @@
       <find>resp</find>
       <find>cont</find>
       <find>id</find>
-      <find>id</find>
+      <find>вый</find>
+      <find>nav-i</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -383,17 +454,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoLikes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/enter.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/utils/tmp.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/GroupsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromocommentsEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromolikesEntity.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3679813e-d43a-48f9-b5ac-4aeb7bfc749e/console.sql" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/auth.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4557f933-20d6-4ef9-9db1-78efdee5b952/console.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/loin.jsp" />
@@ -401,11 +461,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/enter.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/auth.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/login.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromocodesEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b70a89c-57e5-4e16-b892-63a3b1291bd9/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromodislikesEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/utils/HibernateSessionFactory.java" />
@@ -415,25 +472,39 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Promo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/UsersEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromcodesEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ca298b67-2808-4341-91a8-15867f2a16c8/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2260c4dc-e2d8-4de7-827c-3c746bfa8a45/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/31c49fc1-7b23-454e-bf86-f91cf0c1e352/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/enter.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shops.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/auth.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/auth.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/addPromo.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" />
       </list>
     </option>
   </component>
@@ -458,9 +529,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1055" />
-    <option name="width" value="1520" />
-    <option name="height" value="1103" />
+    <option name="x" value="451" />
+    <option name="y" value="30" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -477,29 +549,29 @@
           <expand>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -507,7 +579,7 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -516,7 +588,7 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -525,7 +597,16 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcracker" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -534,30 +615,21 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scnetcracker" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -565,7 +637,7 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -574,7 +646,16 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="promo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -583,7 +664,7 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -591,7 +672,7 @@
             </path>
             <path>
               <item name="promo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scnetcraker" type="462c0819:PsiDirectoryNode" />
+              <item name="scnetcrakernew" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -612,7 +693,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541872220331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542031067760" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -622,14 +703,16 @@
     <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Workstation\Desktop\git\scnetcraker\src\main\webapp\resources\js" />
-      <recent name="C:\Users\Workstation\Desktop\git\scnetcraker\src\main\webapp\resources\img" />
-      <recent name="C:\Users\Workstation\Desktop\git\scnetcraker\src\main\webapp\resources\css" />
-      <recent name="C:\Users\Workstation\Desktop\Repository\scnetcraker\src\main\resources" />
-      <recent name="C:\Users\Workstation\Desktop\Repository\scnetcraker\src\main\webapp\WEB-INF\views" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scnetcracker.dao" />
+      <recent name="com.scnetcracker.service" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.scnetcracker.service" />
+      <recent name="com.scnetcracker.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Artem\scnetcrakernew\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\Workstation\Desktop\Repository\scnetcraker\src\main\webapp\resources" />
       <recent name="C:\Users\Workstation\Desktop\Repository\scnetcraker\src\main\java\com\scnetcracker\dao" />
     </key>
@@ -637,9 +720,12 @@
       <recent name="com.scnetcracker.entity" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.scnetcracker.service" />
-      <recent name="com.scnetcracker.dao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Workstation\Desktop\git\scnetcraker\src\main\webapp\resources\js" />
+      <recent name="C:\Users\Workstation\Desktop\git\scnetcraker\src\main\webapp\resources\img" />
+      <recent name="C:\Users\Workstation\Desktop\git\scnetcraker\src\main\webapp\resources\css" />
+      <recent name="C:\Users\Workstation\Desktop\Repository\scnetcraker\src\main\resources" />
+      <recent name="C:\Users\Workstation\Desktop\Repository\scnetcraker\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -785,11 +871,12 @@
       <workItem from="1541669877064" duration="19025000" />
       <workItem from="1541759314788" duration="6945000" />
       <workItem from="1541847170777" duration="9339000" />
+      <workItem from="1541966364070" duration="22811000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123815000" />
+    <option name="totallyTimeSpent" value="146626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -801,748 +888,479 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6592742" visible="true" weight="0.20067114" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5864909" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.5020325" side_tool="true" weight="0.25637585" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.3407258" side_tool="true" weight="0.17785235" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.41350907" side_tool="true" weight="0.20042644" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3432624" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34236187" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32907802" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32827735" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32907802" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.22836879" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.22751896" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.52915764" visible="true" weight="0.2261745" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.523888" visible="true" weight="0.2260128" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Persistence" order="9" sideWeight="0.47084233" side_tool="true" visible="true" weight="0.2261745" />
+      <window_info anchor="right" id="Persistence" order="9" sideWeight="0.47611204" side_tool="true" visible="true" weight="0.2260128" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Big commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Big commit" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>var2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/auth.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.1.Final/hibernate-core-5.0.1.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="158">
+          <caret line="982" selection-start-line="982" selection-end-line="982" />
+          <folding>
+            <element signature="e#31553#31554#0" expanded="true" />
+            <element signature="e#31623#31624#0" expanded="true" />
+            <element signature="e#46764#46765#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/login.js">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.1.Final/hibernate-core-5.0.1.Final.jar!/org/hibernate/internal/AbstractSessionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="158">
+          <caret line="249" selection-start-line="249" selection-end-line="249" />
+          <folding>
+            <element signature="e#4514#4515#0" expanded="true" />
+            <element signature="e#4575#4576#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="das://2b70a89c-57e5-4e16-b892-63a3b1291bd9/schema/promo/table/promocodes" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/GroupsEntity.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.1.Final/hibernate-core-5.0.1.Final.jar!/org/hibernate/internal/SessionImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="192">
+          <caret line="1545" selection-start-line="1545" selection-end-line="1545" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.1.Final/hibernate-core-5.0.1.Final.jar!/org/hibernate/engine/query/spi/ParameterMetadata.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
+        <state relative-caret-position="257">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2b70a89c-57e5-4e16-b892-63a3b1291bd9/console_1.sql">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.1.Final/hibernate-core-5.0.1.Final.jar!/org/hibernate/internal/AbstractQueryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-end-line="223" />
+        <state relative-caret-position="158">
+          <caret line="266" selection-start-line="266" selection-end-line="266" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/45b057eb-6b90-4b07-aee5-885a9fa55b3a/console.sql">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.1.Final/hibernate-core-5.0.1.Final.jar!/org/hibernate/internal/QueryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="uml://DATABASE/45b057eb-6b90-4b07-aee5-885a9fa55b3a.SCHEMA:prom">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>45b057eb-6b90-4b07-aee5-885a9fa55b3a.SCHEMA:prom</OriginalElement>
-          <nodes>
-            <node x="1106.625" y="168.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.comments</node>
-            <node x="199.95833333333331" y="346.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.promcodes</node>
-            <node x="890.625" y="168.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.operations</node>
-            <node x="193.95833333333331" y="602.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.statistics</node>
-            <node x="558.625" y="168.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.socialnetworkslist</node>
-            <node x="0.0" y="146.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.shops</node>
-            <node x="724.625" y="168.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.entities</node>
-            <node x="0.0" y="831.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.sequence</node>
-            <node x="820.1527777777777" y="368.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.feedback</node>
-            <node x="456.41319444444446" y="390.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.socialnetworks</node>
-            <node x="192.0" y="146.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.categories</node>
-            <node x="378.625" y="0.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.groups</node>
-            <node x="364.625" y="124.0">45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.users</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.socialnetworks" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.users">
-              <point x="-45.75" y="-59.0" />
-              <point x="502.16319444444446" y="326.0" />
-              <point x="451.625" y="326.0" />
-              <point x="0.0" y="81.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.socialnetworks" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.socialnetworkslist">
-              <point x="45.75" y="-59.0" />
-              <point x="593.6631944444445" y="326.0" />
-              <point x="631.625" y="326.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.categories" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.categories">
-              <point x="-36.5" y="59.0" />
-              <point x="228.5" y="284.0" />
-              <point x="172.0" y="284.0" />
-              <point x="172.0" y="205.0" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.feedback" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.operations">
-              <point x="21.125" y="-81.0" />
-              <point x="925.7777777777777" y="316.0" />
-              <point x="988.625" y="316.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.users" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.groups">
-              <point x="0.0" y="-81.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.feedback" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.comments">
-              <point x="63.375" y="-81.0" />
-              <point x="968.0277777777777" y="326.0" />
-              <point x="1156.625" y="326.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.promcodes" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.shops">
-              <point x="-60.66666666666663" y="-103.0" />
-              <point x="230.29166666666669" y="326.0" />
-              <point x="76.0" y="326.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.feedback" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.users">
-              <point x="-63.375" y="-81.0" />
-              <point x="841.2777777777777" y="316.0" />
-              <point x="509.625" y="316.0" />
-              <point x="58.0" y="81.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.promcodes" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.categories">
-              <point x="0.0" y="-103.0" />
-              <point x="290.9583333333333" y="326.0" />
-              <point x="301.5" y="326.0" />
-              <point x="36.5" y="59.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.statistics" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.promcodes">
-              <point x="-47.5" y="-92.0" />
-              <point x="241.45833333333331" y="577.0" />
-              <point x="245.45833333333331" y="577.0" />
-              <point x="-45.5" y="103.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.promcodes" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.users">
-              <point x="60.66666666666663" y="-103.0" />
-              <point x="351.62499999999994" y="326.0" />
-              <point x="393.625" y="326.0" />
-              <point x="-58.0" y="81.0" />
-            </edge>
-            <edge source="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.feedback" target="45b057eb-6b90-4b07-aee5-885a9fa55b3a.TABLE:prom.entities">
-              <point x="-21.125" y="-81.0" />
-              <point x="883.5277777777777" y="306.0" />
-              <point x="797.625" y="306.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8562162162162159" x="75.0" y="426.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromodislikesEntity.java" />
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47583">
-          <caret line="2895" column="25" selection-start-line="2895" selection-start-column="25" selection-end-line="2895" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromocommentsEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromocodesEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/utils/Tmp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/security.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-root.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="158" column="21" selection-start-line="158" selection-start-column="21" selection-end-line="158" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/promo.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="193">
+          <caret line="272" column="22" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/UsersEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="-51">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/test.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="78" column="5" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Promo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/utils/HibernateSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/enter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/ca298b67-2808-4341-91a8-15867f2a16c8">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>ca298b67-2808-4341-91a8-15867f2a16c8</OriginalElement>
-          <nodes>
-            <node x="450.09469696969694" y="1208.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.socialnetworks</node>
-            <node x="724.625" y="168.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.operations</node>
-            <node x="364.625" y="124.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.users</node>
-            <node x="201.0" y="346.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.promcodes</node>
-            <node x="364.62499999999994" y="955.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.users</node>
-            <node x="845.1527777777778" y="368.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.feedback</node>
-            <node x="558.625" y="168.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.socialnetworkslist</node>
-            <node x="198.81818181818164" y="1164.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.promocodes</node>
-            <node x="1106.625" y="988.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.comments</node>
-            <node x="378.625" y="0.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.groups</node>
-            <node x="192.0" y="966.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.categories</node>
-            <node x="378.62499999999994" y="831.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.groups</node>
-            <node x="0.0" y="146.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.shops</node>
-            <node x="0.0" y="1415.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.sequence</node>
-            <node x="724.625" y="988.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.entities</node>
-            <node x="940.625" y="168.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.entities</node>
-            <node x="169.0" y="1415.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.ord</node>
-            <node x="1251.625" y="831.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.statistics_type</node>
-            <node x="814.310606060606" y="1175.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operations</node>
-            <node x="1260.625" y="955.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.statistics</node>
-            <node x="192.0" y="146.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.categories</node>
-            <node x="457.45486111111114" y="390.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.socialnetworks</node>
-            <node x="558.625" y="988.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.socialnetworkslist</node>
-            <node x="195.0" y="602.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.statistics</node>
-            <node x="1106.625" y="168.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.comments</node>
-            <node x="890.625" y="988.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operation_types</node>
-            <node x="0.0" y="977.0">ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.shops</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.socialnetworks" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.users">
-              <point x="-45.75" y="-59.0" />
-              <point x="495.84469696969694" y="1144.0" />
-              <point x="451.62499999999994" y="1144.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.socialnetworks" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.users">
-              <point x="-45.75" y="-59.0" />
-              <point x="503.20486111111114" y="326.0" />
-              <point x="451.625" y="326.0" />
-              <point x="0.0" y="81.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.statistics" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.statistics_type">
-              <point x="0.0" y="-59.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operations" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.comments">
-              <point x="63.375" y="-92.0" />
-              <point x="962.185606060606" y="1144.0" />
-              <point x="1156.625" y="1144.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.promcodes" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.users">
-              <point x="60.666666666666686" y="-103.0" />
-              <point x="352.6666666666667" y="326.0" />
-              <point x="393.625" y="326.0" />
-              <point x="-58.0" y="81.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.categories" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.categories">
-              <point x="-36.5" y="59.0" />
-              <point x="228.5" y="284.0" />
-              <point x="172.0" y="284.0" />
-              <point x="172.0" y="205.0" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.promocodes" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.shops">
-              <point x="-60.666666666666515" y="-103.0" />
-              <point x="229.15151515151513" y="1144.0" />
-              <point x="76.0" y="1144.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.promcodes" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.shops">
-              <point x="-60.66666666666666" y="-103.0" />
-              <point x="231.33333333333337" y="326.0" />
-              <point x="76.0" y="326.0" />
-              <point x="0.0" y="59.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.statistics" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.promcodes">
-              <point x="-47.5" y="-92.0" />
-              <point x="242.5" y="577.0" />
-              <point x="246.5" y="577.0" />
-              <point x="-45.5" y="103.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operations" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operation_types">
-              <point x="21.125" y="-92.0" />
-              <point x="919.935606060606" y="1134.0" />
-              <point x="988.625" y="1134.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.socialnetworks" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.socialnetworkslist">
-              <point x="45.75" y="-59.0" />
-              <point x="587.344696969697" y="1144.0" />
-              <point x="631.625" y="1144.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.feedback" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.entities">
-              <point x="21.125" y="-81.0" />
-              <point x="950.7777777777778" y="316.0" />
-              <point x="1013.625" y="316.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operations" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.users">
-              <point x="-63.375" y="-92.0" />
-              <point x="835.435606060606" y="1134.0" />
-              <point x="509.62499999999994" y="1134.0" />
-              <point x="58.0" y="70.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.users" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.groups">
-              <point x="0.0" y="-81.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.feedback" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.users">
-              <point x="-63.375" y="-81.0" />
-              <point x="866.2777777777778" y="316.0" />
-              <point x="509.625" y="316.0" />
-              <point x="58.0" y="81.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.feedback" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.operations">
-              <point x="-21.125" y="-81.0" />
-              <point x="908.5277777777778" y="306.0" />
-              <point x="822.625" y="306.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.socialnetworks" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.socialnetworkslist">
-              <point x="45.75" y="-59.0" />
-              <point x="594.7048611111111" y="326.0" />
-              <point x="631.625" y="326.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.promcodes" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.categories">
-              <point x="0.0" y="-103.0" />
-              <point x="292.0" y="326.0" />
-              <point x="301.5" y="326.0" />
-              <point x="36.5" y="59.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.promocodes" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.users">
-              <point x="60.66666666666674" y="-103.0" />
-              <point x="350.4848484848484" y="1144.0" />
-              <point x="393.62499999999994" y="1144.0" />
-              <point x="-58.0" y="70.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.categories" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.categories">
-              <point x="-36.5" y="59.0" />
-              <point x="228.5" y="1104.0" />
-              <point x="172.0" y="1104.0" />
-              <point x="172.0" y="1025.0" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.users" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.groups">
-              <point x="0.0" y="-70.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.promocodes" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.categories">
-              <point x="1.1368683772161603E-13" y="-103.0" />
-              <point x="289.81818181818176" y="1144.0" />
-              <point x="301.5" y="1144.0" />
-              <point x="36.5" y="59.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.feedback" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:prom.comments">
-              <point x="63.375" y="-81.0" />
-              <point x="993.0277777777778" y="326.0" />
-              <point x="1156.625" y="326.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.operations" target="ca298b67-2808-4341-91a8-15867f2a16c8.TABLE:promo.entities">
-              <point x="-21.125" y="-92.0" />
-              <point x="877.685606060606" y="1124.0" />
-              <point x="797.625" y="1124.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9960065199673993" x="271.8351907387477" y="580.9622780459866" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ca298b67-2808-4341-91a8-15867f2a16c8/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="171" column="59" selection-start-line="171" selection-start-column="59" selection-end-line="171" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://DATABASE/2260c4dc-e2d8-4de7-827c-3c746bfa8a45">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>2260c4dc-e2d8-4de7-827c-3c746bfa8a45</OriginalElement>
-          <nodes>
-            <node x="558.625" y="157.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.socialnetworkslist</node>
-            <node x="378.62500000000006" y="0.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.groups</node>
-            <node x="1060.625" y="157.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.entities</node>
-            <node x="9.0" y="708.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.statistics</node>
-            <node x="192.00000000000006" y="135.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.categories</node>
-            <node x="364.62500000000006" y="124.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.users</node>
-            <node x="198.81818181818187" y="333.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.promocodes</node>
-            <node x="779.8106060606061" y="344.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operations</node>
-            <node x="0.0" y="584.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.statistics_type</node>
-            <node x="844.625" y="157.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operation_types</node>
-            <node x="724.625" y="157.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.comments</node>
-            <node x="0.0" y="146.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.shops</node>
-            <node x="449.0492424242425" y="377.0">2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.socialnetworks</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.categories" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.categories">
-              <point x="-36.5" y="59.0" />
-              <point x="228.50000000000006" y="273.0" />
-              <point x="172.00000000000006" y="273.0" />
-              <point x="172.00000000000006" y="194.0" />
-              <point x="-73.0" y="-0.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.promocodes" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.users">
-              <point x="60.666666666666686" y="-103.0" />
-              <point x="350.48484848484856" y="313.0" />
-              <point x="393.62500000000006" y="313.0" />
-              <point x="-58.0" y="70.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operations" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operation_types">
-              <point x="21.125" y="-92.0" />
-              <point x="885.4356060606061" y="303.0" />
-              <point x="942.625" y="303.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.users" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.groups">
-              <point x="0.0" y="-70.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.socialnetworks" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.socialnetworkslist">
-              <point x="45.75" y="-59.0" />
-              <point x="586.2992424242425" y="313.0" />
-              <point x="631.625" y="313.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.promocodes" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.categories">
-              <point x="0.0" y="-103.0" />
-              <point x="289.81818181818187" y="313.0" />
-              <point x="301.50000000000006" y="313.0" />
-              <point x="36.5" y="59.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.socialnetworks" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.users">
-              <point x="-45.75" y="-59.0" />
-              <point x="494.7992424242425" y="313.0" />
-              <point x="451.62500000000006" y="313.0" />
-              <point x="0.0" y="70.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.statistics" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.statistics_type">
-              <point x="0.0" y="-59.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.promocodes" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.shops">
-              <point x="-60.66666666666666" y="-103.0" />
-              <point x="229.15151515151524" y="313.0" />
-              <point x="76.0" y="313.0" />
-              <point x="0.0" y="48.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operations" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.comments">
-              <point x="-21.125" y="-92.0" />
-              <point x="843.1856060606061" y="293.0" />
-              <point x="774.625" y="293.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operations" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.entities">
-              <point x="63.375" y="-92.0" />
-              <point x="927.6856060606061" y="313.0" />
-              <point x="1133.625" y="313.0" />
-              <point x="0.0" y="37.0" />
-            </edge>
-            <edge source="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.operations" target="2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.users">
-              <point x="-63.375" y="-92.0" />
-              <point x="800.9356060606061" y="303.0" />
-              <point x="509.62500000000006" y="303.0" />
-              <point x="58.0" y="70.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.5897129186602871" x="289.89655172413796" y="396.97768762677487" />
-          <SelectedNodes>
-            <node>2260c4dc-e2d8-4de7-827c-3c746bfa8a45.TABLE:promo.comments</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/ShopsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromcodesEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="109" column="10" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
-          <folding>
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2260c4dc-e2d8-4de7-827c-3c746bfa8a45/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="166" column="30" selection-end-line="227" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://2260c4dc-e2d8-4de7-827c-3c746bfa8a45/schema/promo/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CommentsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="87" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="50" selection-start-line="50" selection-end-line="50" selection-end-column="67" />
+    <entry file="das://31c49fc1-7b23-454e-bf86-f91cf0c1e352/schema/promo/table/shops">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/promo.jsp">
+    <entry file="das://31c49fc1-7b23-454e-bf86-f91cf0c1e352/schema/promo/table/promocodes">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/login-register.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="das://31c49fc1-7b23-454e-bf86-f91cf0c1e352/schema/promo/table/categories">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/enter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="57" selection-start-line="27" selection-start-column="57" selection-end-line="27" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/31c49fc1-7b23-454e-bf86-f91cf0c1e352/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromocodesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding>
+            <marker date="1542027559371" expanded="false" signature="3266:9096" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        <state relative-caret-position="255">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3619#3620#0" expanded="true" />
+            <element signature="e#3654#3655#0" expanded="true" />
+            <element signature="e#3762#3763#0" expanded="true" />
+            <element signature="e#3797#3798#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="358">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/ShopsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shops.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/categories.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/auth.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/addPromo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="53" selection-start-line="53" selection-end-line="53" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="95" column="48" lean-forward="true" selection-start-line="95" selection-start-column="48" selection-end-line="95" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Shops.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="20" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="365">
+          <caret line="85" column="10" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

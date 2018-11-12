@@ -9,6 +9,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import com.scnetcracker.entity.PromocodesEntity;
+import com.scnetcracker.service.PromoServiceImp;
+
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
@@ -59,6 +62,28 @@ public class PostController {
         user.createUser(Login, Password, Email);
 
         request.getSession().setAttribute("user", Email);
+
+        return new ResponseEntity<>("KULL", HttpStatus.OK);
+
+    }
+
+    @RequestMapping(value = {"/promoadd"}, method = {RequestMethod.POST})
+    @ResponseBody
+    public ResponseEntity<String> promoadd(HttpServletRequest request) {
+        PromoServiceImp PromoService = new PromoServiceImp();
+
+        String Promo = request.getParameter("Promo");
+        String Description = request.getParameter("Description");
+        String Shop = request.getParameter("Shop");
+        String Category = request.getParameter("Category");
+        String ExpireDate = request.getParameter("ExpireDate");
+        System.out.println(Promo);
+        System.out.println(Description);
+        System.out.println(Shop);
+        System.out.println(Category);
+        System.out.println(ExpireDate);
+
+        //PromoService.createPromo(Promo, Description, Shop, Category, ExpireDate);
 
         return new ResponseEntity<>("KULL", HttpStatus.OK);
 

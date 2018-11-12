@@ -85,4 +85,20 @@ public class GetController {
             return "redirect:/enter";
         }
     }
+    @RequestMapping(value = {"/addpromo"}, method = {RequestMethod.GET})
+    public String addpromo(HttpServletRequest request) {
+        if (request.getSession().getAttribute("user") != null) {
+            return "addpromo";
+        } else {
+            return "redirect:/enter";
+        }
+    }
+    @RequestMapping(value = {"/categories"}, method = {RequestMethod.GET})
+    public String categories() {
+        return "categories";
+    }
+    @RequestMapping(value = {"/shops"}, method = {RequestMethod.GET})
+    public String shops() {
+        return "shops";
+    }
 }

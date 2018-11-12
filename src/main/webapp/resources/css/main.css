@@ -22,3 +22,21 @@
 	margin-bottom: 15px;
     padding: 10px;
 }
+.categories a {
+	color: rgba(0,0,0,0.2);
+	font-weight: 700;
+	text-shadow: none;
+}
+
+.categories a::before {
+	color: #007bff;
+	content: attr(data-hover);
+	position: absolute;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.categories a:hover::before,
+.categories a:focus::before {
+	transform: scale(0.9);
+	opacity: 0;
+}
