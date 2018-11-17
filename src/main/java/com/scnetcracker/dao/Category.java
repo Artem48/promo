@@ -5,4 +5,5 @@ import java.util.List;
 public interface Category {
     List getCategory(int id);
     List getCategories();
+    List getChildrenCategory(int Id);
 }

@@ -6,12 +6,11 @@ import javax.persistence.*;
 @Table(name = "operations", schema = "promo", catalog = "")
 public class OperationsEntity {
     private int id;
-    private int operationId;
+    private int operationTypeId;
     private int entityId;
     private int entityNameId;
     private int ownerId;
     private Integer commentId;
-    private Integer value;
 
     @Id
     @Column(name = "id")
@@ -24,13 +23,13 @@ public class OperationsEntity {
     }
 
     @Basic
-    @Column(name = "operationID")
+    @Column(name = "operationTypeID")
     public int getOperationId() {
-        return operationId;
+        return operationTypeId;
     }
 
     public void setOperationId(int operationId) {
-        this.operationId = operationId;
+        this.operationTypeId = operationId;
     }
 
     @Basic
@@ -73,16 +72,6 @@ public class OperationsEntity {
         this.commentId = commentId;
     }
 
-    @Basic
-    @Column(name = "value")
-    public Integer getValue() {
-        return value;
-    }
-
-    public void setValue(Integer value) {
-        this.value = value;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -91,12 +80,12 @@ public class OperationsEntity {
         OperationsEntity that = (OperationsEntity) o;
 
         if (id != that.id) return false;
-        if (operationId != that.operationId) return false;
+
         if (entityId != that.entityId) return false;
         if (entityNameId != that.entityNameId) return false;
         if (ownerId != that.ownerId) return false;
         if (commentId != null ? !commentId.equals(that.commentId) : that.commentId != null) return false;
-        if (value != null ? !value.equals(that.value) : that.value != null) return false;
+
 
         return true;
     }

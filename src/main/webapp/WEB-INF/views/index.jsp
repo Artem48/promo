@@ -13,166 +13,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Промокоды</title>
-    <link rel="stylesheet" href="resources/css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <jsp:include page="templates/header.jsp" />
+
 
 </head>
 <body>
 
 <body>
-<div id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            Название
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="categories">Категории</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="shops">Магазины</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Еще что то
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Пример</a>
-                    </div>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="addpromo">Добавить промокод</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
-            </form>
-
-            <c:choose>
-                <c:when test="${sessionScope.user == null}">
-                    <p><a href="enter">Вход</a>/<a href="registration">Регистрация</a></p>
-
-                </c:when>
-                <c:otherwise>
-                    <p>Пользователь: <a href="profile"><%=session.getAttribute("user")%></a></p>
-                    <a href="logout" class="btn btn-outline-success my-2 my-sm-0">Выйти</a>
-                </c:otherwise>
-            </c:choose>
-
-        </div>
-    </nav>
-</div>
+<jsp:include page="templates/topNavBar.jsp" />
 <!-- Body -->
 <div id="container">
-    <%--<div class="card-group">--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-        <%--<div class="col-md-3">--%>
-            <%--<div class="card card-box">--%>
-                <%--<img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">--%>
-                <%--<div class="card-block">--%>
-                    <%--<h4 class="card-title card-middle-text">Магазин</h4>--%>
-                    <%--<p class="card-text">Длинное описание промокода</p>--%>
-                    <%--<p class="card-text"><small class="text-muted">был добавлен 1 января 1970 года</small></p>--%>
-                    <%--<a href="#" class="btn btn-primary card-middle-button">Открыть промокод</a>--%>
-                <%--</div>--%>
-            <%--</div>--%>
-        <%--</div>--%>
-
-
-
-    <%--</div>--%>
         <div class="card-group" id="promos">
             <%
                 PromoServiceImp promo = new PromoServiceImp();

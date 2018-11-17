@@ -27,7 +27,20 @@ public class CategoryImp implements Category {
 
         session.beginTransaction();
 
-        Query query = session.createQuery("from CategoriesEntity");
+        Query query = session.createQuery("from CategoriesEntity WHERE parentID IS NULL");
+
+        List<CategoriesEntity> list = (List<CategoriesEntity>) query.list();
+
+        return list;
+    }
+
+    public List getChildrenCategory(int Id) {
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from CategoriesEntity WHERE parentID = :Id");
+        query.setParameter("Id", Id);
 
         List<CategoriesEntity> list = (List<CategoriesEntity>) query.list();
 
