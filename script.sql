@@ -143,16 +143,15 @@ CREATE TABLE `promo`.`comments`
 
 CREATE TABLE `promo`.`operations`
 (
-  `id`           integer NOT NULL ,
-  `operationID`  integer NOT NULL ,
-  `entityID`     integer NOT NULL ,
-  `entityNameID` integer NOT NULL ,
-  `ownerID`      integer NOT NULL ,
-  `commentID`    integer ,
-  `value`		 integer,
+  `id`           	 integer NOT NULL ,
+  `operationTypeID`  integer NOT NULL ,
+  `entityID`     	 integer NOT NULL ,
+  `entityNameID` 	 integer NOT NULL ,
+  `ownerID`      	 integer NOT NULL ,
+  `commentID`    	 integer ,
 
   PRIMARY KEY (`id`),
-  FOREIGN KEY (`operationID`) REFERENCES `operation_types` (`id`),
+  FOREIGN KEY (`operationTypeID`) REFERENCES `operation_types` (`id`),
   FOREIGN KEY (`entityNameID`) REFERENCES `entities` (`id`),
   FOREIGN KEY (`ownerID`) REFERENCES `users` (`id`),
   FOREIGN KEY (`commentID`) REFERENCES `comments` (`id`)
@@ -177,12 +176,6 @@ CREATE TABLE `promo`.`statistics`
   PRIMARY KEY (`id`),
   FOREIGN KEY (`type`) REFERENCES `statistics_type` (`id`)
 );
-
-
-
-
-
-
 
 
 DROP TRIGGER IF EXISTS `promo`.`delete_user`;
