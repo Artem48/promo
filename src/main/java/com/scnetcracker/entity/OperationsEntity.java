@@ -93,12 +93,12 @@ public class OperationsEntity {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + operationId;
+        result = 31 * result + operationTypeId;
         result = 31 * result + entityId;
         result = 31 * result + entityNameId;
         result = 31 * result + ownerId;
         result = 31 * result + (commentId != null ? commentId.hashCode() : 0);
-        result = 31 * result + (value != null ? value.hashCode() : 0);
+
         return result;
     }
 }

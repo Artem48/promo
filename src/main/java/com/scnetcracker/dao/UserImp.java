@@ -27,8 +27,7 @@ public class UserImp implements User
     
     session.save(user);
     session.getTransaction().commit();
-    
-    session.getSessionFactory().close();
+
   }
 
   @Override
