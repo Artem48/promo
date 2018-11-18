@@ -98,25 +98,16 @@ CREATE TABLE `promo`.`promocodes`
   `promo`       VARCHAR(100) ,
   `issueDate`   DATE NOT NULL ,
   `expireDate`  DATE NULL ,
-  `description` MEDIUMTEXT NULL ,
+  `description` TEXT NULL ,
   `userID`      INTEGER NOT NULL ,
   `shopId`      INTEGER NOT NULL ,
-  `parentID`    INTEGER NOT NULL ,
+  `categoryID`    INTEGER NOT NULL ,
 
   PRIMARY KEY (`PromoID`),
   FOREIGN KEY (`userID`) REFERENCES `users` (`id`),
   FOREIGN KEY (`shopId`) REFERENCES `shops` (`id`),
-  FOREIGN KEY (`parentID`) REFERENCES `categories` (`id`)
+  FOREIGN KEY (`categoryID`) REFERENCES `categories` (`id`)
 )AUTO_INCREMENT = 2000000000;
-
--- ************************************** `entities`
-
-CREATE TABLE `promo`.`entities`
-(
-  `id`   integer NOT NULL ,
-  `name` varchar(20) NOT NULL ,
-  PRIMARY KEY (`id`)
-);
 
 
 
@@ -146,13 +137,11 @@ CREATE TABLE `promo`.`operations`
   `id`           	 integer NOT NULL ,
   `operationTypeID`  integer NOT NULL ,
   `entityID`     	 integer NOT NULL ,
-  `entityNameID` 	 integer NOT NULL ,
   `ownerID`      	 integer NOT NULL ,
   `commentID`    	 integer ,
 
   PRIMARY KEY (`id`),
   FOREIGN KEY (`operationTypeID`) REFERENCES `operation_types` (`id`),
-  FOREIGN KEY (`entityNameID`) REFERENCES `entities` (`id`),
   FOREIGN KEY (`ownerID`) REFERENCES `users` (`id`),
   FOREIGN KEY (`commentID`) REFERENCES `comments` (`id`)
 );
@@ -164,7 +153,7 @@ CREATE TABLE `promo`.`statistics_type`
 (
   `id`	integer NOT NULL AUTO_INCREMENT,
   `name` varchar(30) NOT NULL,
-    PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`)
 );
 
 CREATE TABLE `promo`.`statistics`

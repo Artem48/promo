@@ -7,26 +7,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="232933e6-01e2-4946-9ecc-bebeba3c15c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/2260c4dc-e2d8-4de7-827c-3c746bfa8a45.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ca298b67-2808-4341-91a8-15867f2a16c8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/31c49fc1-7b23-454e-bf86-f91cf0c1e352.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/31c49fc1-7b23-454e-bf86-f91cf0c1e352.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/31c49fc1-7b23-454e-bf86-f91cf0c1e352/storage_v2/_src_/schema/promo.D8lfBg.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/31c49fc1-7b23-454e-bf86-f91cf0c1e352/storage_v2/_src_/schema/promo.D8lfBg.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/templates/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/templates/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/templates/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/templates/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/resources/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/PostController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/UserImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/GroupsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/OperationsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/PromocodesEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/ShopsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/SocialnetworksEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/StatisticsEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/entity/UsersEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/UserServiceImp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/utils/HibernateSessionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/utils/Tmp.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,6 +51,11 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -246,6 +252,40 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-955941806">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="SCHEMA:promo" value="1" />
+          <entry key="java" value="2" />
+          <entry key="sql" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+          <entry key="SQL" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="sql" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="SQL" value="10" />
+          <entry key="Scratch" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="promo" />
@@ -253,66 +293,65 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/topNavBar.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
-              <folding>
-                <marker date="1542491125804" expanded="true" signature="3146:3202" ph="..." />
-              </folding>
+            <state relative-caret-position="1156">
+              <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java">
+        <entry file="file://$PROJECT_DIR$/script.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+            <state relative-caret-position="651">
+              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryService.java">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52c58aa7-df03-4701-8a1f-8811211c861c/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="99">
+              <caret line="182" lean-forward="true" selection-end-line="209" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/GroupsEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-145">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="37" />
+        <entry file="uml://DATABASE/31c49fc1-7b23-454e-bf86-f91cf0c1e352.SCHEMA:promo">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>31c49fc1-7b23-454e-bf86-f91cf0c1e352.SCHEMA:promo</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="192.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -320,8 +359,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="118" selection-start-line="2" selection-start-column="118" selection-end-line="2" selection-end-column="118" />
+            <state relative-caret-position="17">
+              <caret line="1" column="108" selection-start-line="1" selection-start-column="108" selection-end-line="1" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -329,8 +368,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="765">
+              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -347,8 +386,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -369,10 +408,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fontawesom</find>
-      <find>Кате</find>
-      <find>setComment</find>
-      <find>Si</find>
       <find>assets</find>
       <find>asset</find>
       <find>main.css</find>
@@ -399,6 +434,10 @@
       <find>nav-i</find>
       <find>Hidde</find>
       <find>stas</find>
+      <find>entit</find>
+      <find>entities</find>
+      <find>parentid</find>
+      <find>mediumtext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -407,9 +446,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/login.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromocodesEntity.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2b70a89c-57e5-4e16-b892-63a3b1291bd9/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/PromodislikesEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/utils/HibernateSessionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/utils/Tmp.java" />
@@ -458,6 +494,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/topNavBar.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/31c49fc1-7b23-454e-bf86-f91cf0c1e352/console_2.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/52c58aa7-df03-4701-8a1f-8811211c861c/console.sql" />
+        <option value="$PROJECT_DIR$/script.sql" />
       </list>
     </option>
   </component>
@@ -495,7 +534,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -645,6 +683,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,7 +695,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542491552096" />
-    <property name="database.console.LAST_STATE" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -835,6 +874,7 @@
       <workItem from="1541847170777" duration="9339000" />
       <workItem from="1541966364070" duration="25891000" />
       <workItem from="1542279347362" duration="9451000" />
+      <workItem from="1542497621127" duration="1718000" />
     </task>
     <task id="LOCAL-00001" summary="Big commit">
       <created>1542031160964</created>
@@ -847,7 +887,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165332000" />
+    <option name="totallyTimeSpent" value="167050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -859,10 +899,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53563714" visible="true" weight="0.15503356" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53563714" visible="true" weight="0.15458423" />
       <window_info id="Structure" order="1" sideWeight="0.46436286" side_tool="true" weight="0.15503356" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -872,7 +912,7 @@
       <window_info id="Web" order="7" sideWeight="0.41350907" side_tool="true" weight="0.20042644" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.3432624" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.3432624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -880,19 +920,19 @@
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32907802" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32907802" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32827735" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067115" side_tool="true" weight="0.3432624" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.22751896" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32827735" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32907802" />
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32827735" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32907802" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.22751896" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="15" sideWeight="0.4989339" visible="true" weight="0.22751896" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.52051836" weight="0.10805369" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.52051836" visible="true" weight="0.17750533" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Persistence" order="9" sideWeight="0.47948164" side_tool="true" weight="0.10805369" />
@@ -970,6 +1010,10 @@
     <MESSAGE value="Big commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Big commit" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
@@ -980,33 +1024,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="272" column="22" selection-start-line="272" selection-start-column="22" selection-end-line="272" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CommentsEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://31c49fc1-7b23-454e-bf86-f91cf0c1e352/schema/promo/table/shops" />
     <entry file="das://31c49fc1-7b23-454e-bf86-f91cf0c1e352/schema/promo/table/promocodes" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/login-register.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -1162,108 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://DATABASE/31c49fc1-7b23-454e-bf86-f91cf0c1e352.SCHEMA:promo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>DATABASE</ID>
-          <OriginalElement>31c49fc1-7b23-454e-bf86-f91cf0c1e352.SCHEMA:promo</OriginalElement>
-          <nodes>
-            <node x="871.0" y="136.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.categories</node>
-            <node x="331.99999999999994" y="158.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.entities</node>
-            <node x="1035.0" y="147.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.shops</node>
-            <node x="213.99999999999994" y="158.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.comments</node>
-            <node x="246.77272727272725" y="336.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operations</node>
-            <node x="495.99999999999994" y="158.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.socialnetworkslist</node>
-            <node x="673.5" y="0.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.groups</node>
-            <node x="903.090909090909" y="325.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.promocodes</node>
-            <node x="568.1704545454545" y="369.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.socialnetworks</node>
-            <node x="660.0" y="125.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.users</node>
-            <node x="0.0" y="577.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.statistics_type</node>
-            <node x="0.0" y="158.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operation_types</node>
-            <node x="9.0" y="702.0">31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.statistics</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.promocodes" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.categories">
-              <point x="0.0" y="-103.5" />
-              <point x="993.090909090909" y="305.0" />
-              <point x="979.0" y="305.0" />
-              <point x="36.0" y="59.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.socialnetworks" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.socialnetworkslist">
-              <point x="-45.5" y="-59.5" />
-              <point x="613.6704545454545" y="295.0" />
-              <point x="568.0" y="295.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.socialnetworks" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.users">
-              <point x="45.5" y="-59.5" />
-              <point x="704.6704545454545" y="305.0" />
-              <point x="745.5" y="305.0" />
-              <point x="0.0" y="70.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operations" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.users">
-              <point x="62.625" y="-92.5" />
-              <point x="392.89772727272725" y="305.0" />
-              <point x="688.5" y="305.0" />
-              <point x="-57.0" y="70.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.promocodes" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.shops">
-              <point x="60.0" y="-103.5" />
-              <point x="1053.090909090909" y="305.0" />
-              <point x="1110.0" y="305.0" />
-              <point x="0.0" y="48.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operations" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operation_types">
-              <point x="-62.625" y="-92.5" />
-              <point x="267.64772727272725" y="305.0" />
-              <point x="97.0" y="305.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.statistics" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.statistics_type">
-              <point x="0.0" y="-59.5" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operations" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.comments">
-              <point x="-20.875" y="-92.5" />
-              <point x="309.39772727272725" y="295.0" />
-              <point x="262.99999999999994" y="295.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.operations" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.entities">
-              <point x="20.875" y="-92.5" />
-              <point x="351.14772727272725" y="295.0" />
-              <point x="403.99999999999994" y="295.0" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.categories" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.categories">
-              <point x="-36.0" y="59.5" />
-              <point x="907.0" y="275.0" />
-              <point x="851.0" y="275.0" />
-              <point x="851.0" y="195.5" />
-              <point x="-72.0" y="-0.0" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.users" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.groups">
-              <point x="0.0" y="-70.5" />
-              <point x="0.0" y="37.5" />
-            </edge>
-            <edge source="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.promocodes" target="31c49fc1-7b23-454e-bf86-f91cf0c1e352.TABLE:promo.users">
-              <point x="-60.0" y="-103.5" />
-              <point x="933.090909090909" y="305.0" />
-              <point x="802.5" y="305.0" />
-              <point x="57.0" y="70.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.9575505350772888" x="136.0" y="231.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Key columns</Category>
-            <Category>Columns</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Promo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1348,22 +1263,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/topNavBar.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1377">
+          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1374,6 +1277,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="45" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="108" selection-start-line="1" selection-start-column="108" selection-end-line="1" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1381,51 +1325,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/GroupsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="118" selection-start-line="2" selection-start-column="118" selection-end-line="2" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/topNavBar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
-          <folding>
-            <marker date="1542491125804" expanded="true" signature="3146:3202" ph="..." />
-          </folding>
+        <state relative-caret-position="-145">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/OperationsEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+        <state relative-caret-position="1156">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/31c49fc1-7b23-454e-bf86-f91cf0c1e352.SCHEMA:promo">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>31c49fc1-7b23-454e-bf86-f91cf0c1e352.SCHEMA:promo</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="239.0" y="192.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CategoriesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/31c49fc1-7b23-454e-bf86-f91cf0c1e352/console_2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/52c58aa7-df03-4701-8a1f-8811211c861c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="182" lean-forward="true" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
         </state>
       </provider>
     </entry>

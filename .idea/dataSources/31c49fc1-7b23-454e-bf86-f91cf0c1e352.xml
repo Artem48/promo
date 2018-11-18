@@ -5015,7 +5015,7 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1134" parent="325" name="operationID">
+    <column id="1134" parent="325" name="operationTypeID">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
@@ -5044,368 +5044,363 @@
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1139" parent="325" name="value">
-      <Position>7</Position>
-      <DataType>int(11)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <index id="1140" parent="325" name="operationID">
-      <ColNames>operationID</ColNames>
+    <index id="1139" parent="325" name="operationTypeID">
+      <ColNames>operationTypeID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="1141" parent="325" name="entityNameID">
+    <index id="1140" parent="325" name="entityNameID">
       <ColNames>entityNameID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="1142" parent="325" name="ownerID">
+    <index id="1141" parent="325" name="ownerID">
       <ColNames>ownerID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="1143" parent="325" name="commentID">
+    <index id="1142" parent="325" name="commentID">
       <ColNames>commentID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1144" parent="325" name="PRIMARY">
+    <key id="1143" parent="325" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1145" parent="325" name="operations_ibfk_1">
-      <ColNames>operationID</ColNames>
+    <foreign-key id="1144" parent="325" name="operations_ibfk_1">
+      <ColNames>operationTypeID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>operation_types</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="1146" parent="325" name="operations_ibfk_2">
+    <foreign-key id="1145" parent="325" name="operations_ibfk_2">
       <ColNames>entityNameID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>entities</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="1147" parent="325" name="operations_ibfk_3">
+    <foreign-key id="1146" parent="325" name="operations_ibfk_3">
       <ColNames>ownerID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="1148" parent="325" name="operations_ibfk_4">
+    <foreign-key id="1147" parent="325" name="operations_ibfk_4">
       <ColNames>commentID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>comments</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="1149" parent="326" name="PromoID">
+    <column id="1148" parent="326" name="PromoID">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1150" parent="326" name="promo">
+    <column id="1149" parent="326" name="promo">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1151" parent="326" name="issueDate">
+    <column id="1150" parent="326" name="issueDate">
       <Position>3</Position>
       <DataType>date|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1152" parent="326" name="expireDate">
+    <column id="1151" parent="326" name="expireDate">
       <Position>4</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1153" parent="326" name="description">
+    <column id="1152" parent="326" name="description">
       <Position>5</Position>
       <DataType>mediumtext|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1154" parent="326" name="userID">
+    <column id="1153" parent="326" name="userID">
       <Position>6</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1155" parent="326" name="shopId">
+    <column id="1154" parent="326" name="shopId">
       <Position>7</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1156" parent="326" name="parentID">
+    <column id="1155" parent="326" name="parentID">
       <Position>8</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="1157" parent="326" name="userID">
+    <index id="1156" parent="326" name="userID">
       <ColNames>userID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="1158" parent="326" name="shopId">
+    <index id="1157" parent="326" name="shopId">
       <ColNames>shopId</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="1159" parent="326" name="parentID">
+    <index id="1158" parent="326" name="parentID">
       <ColNames>parentID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1160" parent="326" name="PRIMARY">
+    <key id="1159" parent="326" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>PromoID</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1161" parent="326" name="promocodes_ibfk_1">
+    <foreign-key id="1160" parent="326" name="promocodes_ibfk_1">
       <ColNames>userID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="1162" parent="326" name="promocodes_ibfk_2">
+    <foreign-key id="1161" parent="326" name="promocodes_ibfk_2">
       <ColNames>shopId</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>shops</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="1163" parent="326" name="promocodes_ibfk_3">
+    <foreign-key id="1162" parent="326" name="promocodes_ibfk_3">
       <ColNames>parentID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>categories</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="1164" parent="327" name="id">
+    <column id="1163" parent="327" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1165" parent="327" name="name">
+    <column id="1164" parent="327" name="name">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1166" parent="327" name="URL">
+    <column id="1165" parent="327" name="URL">
       <Position>3</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="1167" parent="327" name="name">
+    <index id="1166" parent="327" name="name">
       <ColNames>name</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="1168" parent="327" name="URL">
+    <index id="1167" parent="327" name="URL">
       <ColNames>URL</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="1169" parent="327" name="PRIMARY">
+    <key id="1168" parent="327" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="1170" parent="327" name="name">
+    <key id="1169" parent="327" name="name">
       <ColNames>name</ColNames>
       <UnderlyingIndexName>name</UnderlyingIndexName>
     </key>
-    <key id="1171" parent="327" name="URL">
+    <key id="1170" parent="327" name="URL">
       <ColNames>URL</ColNames>
       <UnderlyingIndexName>URL</UnderlyingIndexName>
     </key>
-    <column id="1172" parent="328" name="id">
+    <column id="1171" parent="328" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1173" parent="328" name="socialNetworkID">
+    <column id="1172" parent="328" name="socialNetworkID">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1174" parent="328" name="identificator">
+    <column id="1173" parent="328" name="identificator">
       <Position>3</Position>
       <DataType>varchar(40)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1175" parent="328" name="userID">
+    <column id="1174" parent="328" name="userID">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="1176" parent="328" name="socialNetworkID">
+    <index id="1175" parent="328" name="socialNetworkID">
       <ColNames>socialNetworkID</ColNames>
       <Type>btree</Type>
     </index>
-    <index id="1177" parent="328" name="userID">
+    <index id="1176" parent="328" name="userID">
       <ColNames>userID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1178" parent="328" name="PRIMARY">
+    <key id="1177" parent="328" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1179" parent="328" name="socialnetworks_ibfk_2">
+    <foreign-key id="1178" parent="328" name="socialnetworks_ibfk_2">
       <ColNames>socialNetworkID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>socialnetworkslist</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <foreign-key id="1180" parent="328" name="socialnetworks_ibfk_1">
+    <foreign-key id="1179" parent="328" name="socialnetworks_ibfk_1">
       <ColNames>userID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="1181" parent="329" name="id">
+    <column id="1180" parent="329" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1182" parent="329" name="name">
+    <column id="1181" parent="329" name="name">
       <Position>2</Position>
       <DataType>varchar(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1183" parent="329" name="PRIMARY">
+    <key id="1182" parent="329" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1184" parent="330" name="id">
+    <column id="1183" parent="330" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1185" parent="330" name="date">
+    <column id="1184" parent="330" name="date">
       <Position>2</Position>
       <DataType>datetime|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1186" parent="330" name="type">
+    <column id="1185" parent="330" name="type">
       <Position>3</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1187" parent="330" name="value">
+    <column id="1186" parent="330" name="value">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="1188" parent="330" name="type">
+    <index id="1187" parent="330" name="type">
       <ColNames>type</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1189" parent="330" name="PRIMARY">
+    <key id="1188" parent="330" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="1190" parent="330" name="statistics_ibfk_1">
+    <foreign-key id="1189" parent="330" name="statistics_ibfk_1">
       <ColNames>type</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>statistics_type</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <column id="1191" parent="331" name="id">
+    <column id="1190" parent="331" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1192" parent="331" name="name">
+    <column id="1191" parent="331" name="name">
       <Position>2</Position>
       <DataType>varchar(30)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1193" parent="331" name="PRIMARY">
+    <key id="1192" parent="331" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="1194" parent="332" name="id">
+    <column id="1193" parent="332" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1195" parent="332" name="login">
+    <column id="1194" parent="332" name="login">
       <Position>2</Position>
       <DataType>varchar(177)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1196" parent="332" name="email">
+    <column id="1195" parent="332" name="email">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1197" parent="332" name="password">
+    <column id="1196" parent="332" name="password">
       <Position>4</Position>
       <DataType>varchar(100)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="1198" parent="332" name="groupID">
+    <column id="1197" parent="332" name="groupID">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="1199" parent="332" name="login">
+    <index id="1198" parent="332" name="login">
       <ColNames>login</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="1200" parent="332" name="email">
+    <index id="1199" parent="332" name="email">
       <ColNames>email</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <index id="1201" parent="332" name="groupID">
+    <index id="1200" parent="332" name="groupID">
       <ColNames>groupID</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="1202" parent="332" name="PRIMARY">
+    <key id="1201" parent="332" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="1203" parent="332" name="login">
+    <key id="1202" parent="332" name="login">
       <ColNames>login</ColNames>
       <UnderlyingIndexName>login</UnderlyingIndexName>
     </key>
-    <key id="1204" parent="332" name="email">
+    <key id="1203" parent="332" name="email">
       <ColNames>email</ColNames>
       <UnderlyingIndexName>email</UnderlyingIndexName>
     </key>
-    <foreign-key id="1205" parent="332" name="users_ibfk_1">
+    <foreign-key id="1204" parent="332" name="users_ibfk_1">
       <ColNames>groupID</ColNames>
       <RefSchemaName>promo</RefSchemaName>
       <RefTableName>groups</RefTableName>
       <RefColNames>id</RefColNames>
     </foreign-key>
-    <trigger id="1206" parent="332" name="delete_user">
+    <trigger id="1205" parent="332" name="delete_user">
       <SourceTextLength>184</SourceTextLength>
       <Turn>before-row</Turn>
       <Events>D</Events>
