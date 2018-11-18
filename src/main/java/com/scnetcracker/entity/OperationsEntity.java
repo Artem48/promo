@@ -8,7 +8,6 @@ public class OperationsEntity {
     private int id;
     private int operationTypeId;
     private int entityId;
-    private int entityNameId;
     private int ownerId;
     private Integer commentId;
 
@@ -24,12 +23,12 @@ public class OperationsEntity {
 
     @Basic
     @Column(name = "operationTypeID")
-    public int getOperationId() {
+    public int getOperationTypeId() {
         return operationTypeId;
     }
 
-    public void setOperationId(int operationId) {
-        this.operationTypeId = operationId;
+    public void setOperationTypeId(int operationTypeId) {
+        this.operationTypeId = operationTypeId;
     }
 
     @Basic
@@ -40,16 +39,6 @@ public class OperationsEntity {
 
     public void setEntityId(int entityId) {
         this.entityId = entityId;
-    }
-
-    @Basic
-    @Column(name = "entityNameID")
-    public int getEntityNameId() {
-        return entityNameId;
-    }
-
-    public void setEntityNameId(int entityNameId) {
-        this.entityNameId = entityNameId;
     }
 
     @Basic
@@ -80,12 +69,10 @@ public class OperationsEntity {
         OperationsEntity that = (OperationsEntity) o;
 
         if (id != that.id) return false;
-
+        if (operationTypeId != that.operationTypeId) return false;
         if (entityId != that.entityId) return false;
-        if (entityNameId != that.entityNameId) return false;
         if (ownerId != that.ownerId) return false;
         if (commentId != null ? !commentId.equals(that.commentId) : that.commentId != null) return false;
-
 
         return true;
     }
@@ -95,10 +82,8 @@ public class OperationsEntity {
         int result = id;
         result = 31 * result + operationTypeId;
         result = 31 * result + entityId;
-        result = 31 * result + entityNameId;
         result = 31 * result + ownerId;
         result = 31 * result + (commentId != null ? commentId.hashCode() : 0);
-
         return result;
     }
 }

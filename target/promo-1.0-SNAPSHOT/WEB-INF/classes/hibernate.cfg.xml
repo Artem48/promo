@@ -8,12 +8,12 @@
     <!-- Здесь нужно указать путь к базе -->
     <property name="connection.url">jdbc:mysql://localhost:3306/promo</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-    <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password"></property>
+    <property name="connection.username">root</property>
+    <property name="connection.password"></property>
+
 
     <mapping class="com.scnetcracker.entity.CategoriesEntity"/>
     <mapping class="com.scnetcracker.entity.CommentsEntity"/>
-    <mapping class="com.scnetcracker.entity.EntitiesEntity"/>
     <mapping class="com.scnetcracker.entity.GroupsEntity"/>
     <mapping class="com.scnetcracker.entity.OperationTypesEntity"/>
     <mapping class="com.scnetcracker.entity.OperationsEntity"/>

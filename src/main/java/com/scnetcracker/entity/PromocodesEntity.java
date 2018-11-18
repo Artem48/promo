@@ -13,7 +13,7 @@ public class PromocodesEntity {
     private String description;
     private int userId;
     private int shopId;
-    private int parentId;
+    private int categoryId;
 
     @Id
     @Column(name = "PromoID")
@@ -86,13 +86,13 @@ public class PromocodesEntity {
     }
 
     @Basic
-    @Column(name = "parentID")
-    public int getParentId() {
-        return parentId;
+    @Column(name = "categoryID")
+    public int getCategoryId() {
+        return categoryId;
     }
 
-    public void setParentId(int parentId) {
-        this.parentId = parentId;
+    public void setCategoryId(int categoryId) {
+        this.categoryId = categoryId;
     }
 
     @Override
@@ -105,7 +105,7 @@ public class PromocodesEntity {
         if (promoId != that.promoId) return false;
         if (userId != that.userId) return false;
         if (shopId != that.shopId) return false;
-        if (parentId != that.parentId) return false;
+        if (categoryId != that.categoryId) return false;
         if (promo != null ? !promo.equals(that.promo) : that.promo != null) return false;
         if (issueDate != null ? !issueDate.equals(that.issueDate) : that.issueDate != null) return false;
         if (expireDate != null ? !expireDate.equals(that.expireDate) : that.expireDate != null) return false;
@@ -123,7 +123,7 @@ public class PromocodesEntity {
         result = 31 * result + (description != null ? description.hashCode() : 0);
         result = 31 * result + userId;
         result = 31 * result + shopId;
-        result = 31 * result + parentId;
+        result = 31 * result + categoryId;
         return result;
     }
 }

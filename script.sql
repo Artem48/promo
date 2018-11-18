@@ -11,7 +11,6 @@ DROP TABLE IF EXISTS `promo`.`users`;
 DROP TABLE IF EXISTS `promo`.`shops`;
 DROP TABLE IF EXISTS `promo`.`operations`;
 DROP TABLE IF EXISTS `promo`.`groups`;
-DROP TABLE IF EXISTS `promo`.`entities`;
 DROP TABLE IF EXISTS `promo`.`comments`;
 DROP TABLE IF EXISTS `promo`.`categories`;
 DROP TABLE IF EXISTS `promo`.`socialNetworksList`;
