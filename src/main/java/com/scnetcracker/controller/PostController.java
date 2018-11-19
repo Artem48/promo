@@ -76,13 +76,15 @@ public class PostController {
         String Shop = request.getParameter("Shop");
         String Category = request.getParameter("Category");
         String ExpireDate = request.getParameter("ExpireDate");
+        String User = (String) request.getSession().getAttribute("user");
         System.out.println(Promo);
         System.out.println(Description);
         System.out.println(Shop);
         System.out.println(Category);
         System.out.println(ExpireDate);
+        System.out.println(User);
 
-        //PromoService.createPromo(Promo, Description, Shop, Category, ExpireDate);
+        PromoService.createPromo(Promo, Description, Shop, Category, ExpireDate, User);
 
         return new ResponseEntity<>("KULL", HttpStatus.OK);
 

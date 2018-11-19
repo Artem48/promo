@@ -33,4 +33,16 @@ public class ShopImp implements Shops {
 
         return list;
     }
+    public List getShop(String name){
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from ShopsEntity WHERE name = :name");
+        query.setParameter("name", name);
+
+        List<ShopsEntity> list = (List<ShopsEntity>) query.list();
+
+        return list;
+    }
 }

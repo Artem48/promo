@@ -15,7 +15,9 @@ public class PromoServiceImp implements PromoService {
     public List getPromosByIssueDate() {
         return promo.getPromosByIssueDate();
     }
-//    public void createPromo(String Promo, String Description, String Shop, String Category, String ExpireDate){
-//        promo.createPromo(Promo, Description, Shop, Category, ExpireDate);
-//    }
+
+
+    public void createPromo(String Promo, String Description, String Shop, String Category, String ExpireDate, String User){
+        promo.createPromo(Promo, Description, Shop, Category, ExpireDate, User);
+    }
 }

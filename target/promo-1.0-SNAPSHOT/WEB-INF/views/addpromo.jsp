@@ -42,7 +42,7 @@
                         for(ShopsEntity shop : shops){
 
                     %>
-                    <option>
+                    <option id=<%=shop.getId()%>>
                         <%=shop.getName()%>
                     </option>
 
@@ -61,7 +61,7 @@
                         for(CategoriesEntity category : categories){
 
                     %>
-                        <option>
+                        <option id=<%=category.getId()%>>
                                     <%=category.getName()%>
                         </option>
                     <%
