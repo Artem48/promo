@@ -79,7 +79,7 @@
                                 for(ShopsEntity shop : shops){
 
                             %>
-                            <li><a class="dropdown-item"  href="#"><%=shop.getName()%></a>
+                            <li><a class="dropdown-item"  href="123"><%=shop.getName()%></a>
                             <%
                                 }
                             %>
