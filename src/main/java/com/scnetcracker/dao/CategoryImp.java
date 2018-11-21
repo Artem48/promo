@@ -22,6 +22,19 @@ public class CategoryImp implements Category {
         return list;
     }
 
+    public List getCategory(String name) {
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from CategoriesEntity WHERE name = :name");
+        query.setParameter("name", name);
+
+        List<CategoriesEntity> list = (List<CategoriesEntity>) query.list();
+
+        return list;
+    }
+
     public List getCategories() {
         Session session = HibernateSessionFactory.getSessionFactory().openSession();
 

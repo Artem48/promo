@@ -3,9 +3,9 @@ $(document).ready( function() {
         const PROMO = $('#Promo').val();
         const DESCRIPTION = $('#Description').val();
         var selindshop = document.getElementById("Shop").options.selectedIndex;
-        const SHOP = document.getElementById("Shop").options[selindshop].text;
+        const SHOP = document.getElementById("Shop").options[selindshop].id;
         var selindcategory = document.getElementById("Category").options.selectedIndex;
-        const CATEGORY = document.getElementById("Category").options[selindcategory].text;
+        const CATEGORY = document.getElementById("Category").options[selindcategory].id;
         const EXPIREDATE = $('#ExpireDate').val();
         event.preventDefault()
         if(
