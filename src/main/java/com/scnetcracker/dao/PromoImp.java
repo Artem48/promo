@@ -31,6 +31,30 @@ public class PromoImp implements Promo {
 
         return list;
     }
+    public List getShopPromo(int id) {
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from PromocodesEntity WHERE shopId = :shopId");
+        query.setParameter("shopId", id);
+
+        List<PromocodesEntity> list = (List<PromocodesEntity>) query.list();
+
+        return list;
+    }
+    public List getCategoryPromo(int id){
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from PromocodesEntity WHERE categoryId = :categoryId");
+        query.setParameter("categoryId", id);
+
+        List<PromocodesEntity> list = (List<PromocodesEntity>) query.list();
+
+        return list;
+    }
 //    public void createPromo(String Promo, String Description, String Shop, String Category, String ExpireDate){
 //        Session session = HibernateSessionFactory.getSessionFactory().openSession();
 //

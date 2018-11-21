@@ -3,9 +3,12 @@ package com.scnetcracker.controller;
 import com.scnetcracker.service.UserServiceImp;
 import org.json.JSONObject;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -101,4 +104,25 @@ public class GetController {
     public String shops() {
         return "shops";
     }
+
+    @RequestMapping(value = {"/shop/{id}"}, method = {RequestMethod.GET})
+    public ModelAndView shops(@PathVariable String id) {
+        ModelAndView shop = new ModelAndView();
+        shop.addObject("id", id);
+        shop.setViewName("shop");
+        return shop;
+    }
+
+    @RequestMapping(value = {"/category/{id}"}, method = {RequestMethod.GET})
+    public ModelAndView categories(@PathVariable String id) {
+        ModelAndView category = new ModelAndView();
+        category.addObject("id", id);
+        category.setViewName("category");
+        return category;
+    }
+
+//    @RequestMapping(value = {"/shop"}, method = {RequestMethod.GET})
+//    public String shop() {
+//        return "shop";
+//    }
 }

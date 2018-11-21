@@ -1,6 +1,7 @@
 package com.scnetcracker.dao;
 
 import com.scnetcracker.entity.ShopsEntity;
+import com.scnetcracker.service.ShopService;
 import com.scnetcracker.utils.HibernateSessionFactory;
 import org.hibernate.Query;
 import org.hibernate.Session;
@@ -32,5 +33,21 @@ public class ShopImp implements Shops {
         List<ShopsEntity> list = (List<ShopsEntity>) query.list();
 
         return list;
+    }
+    public int getShopIDbyName(String name)
+    {
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from ShopsEntity");
+        //query.setParameter("name", name);
+
+        List<ShopsEntity> list = (List<ShopsEntity>) query.list();
+        for (ShopsEntity i : list){
+            if(i.getName().equals(name)) {
+                return i.getId();
+            }}
+        return 0;
     }
 }

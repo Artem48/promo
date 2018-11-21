@@ -18,7 +18,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <a class="navbar-brand" href="#">Проект</a>
+        <a class="navbar-brand" href="/">Проект</a>
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="http://example.com" id="categoriesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,7 +41,7 @@
 
 
                             %>
-                            <li class="<%=liClass%>"><a class="<%=aClass%>"  href="#"><%=category.getName()%></a>
+                            <li class="<%=liClass%>"><a class="<%=aClass%>"  href="/category/<%=category.getId()%>"><%=category.getName()%></a>
                             <%
 
 
@@ -51,7 +51,7 @@
                                     <%
                                     for(CategoriesEntity child : categoriesChildren ){
                                     %>
-                                        <li><a class="dropdown-item"  href="#"><%=child.getName()%></a></li>
+                                        <li><a class="dropdown-item"  href="/category/<%=child.getId()%>"><%=child.getName()%></a></li>
                                     <%
                                     }
                                     %>
@@ -79,14 +79,14 @@
                                 for(ShopsEntity shop : shops){
 
                             %>
-                            <li><a class="dropdown-item"  href="#"><%=shop.getName()%></a>
+                            <li><a class="dropdown-item"  href="/shop/<%=shop.getId()%>"><%=shop.getName()%></a>
                             <%
                                 }
                             %>
                         </ul>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="addpromo">Добавить промокод</a>
+                        <a class="nav-link" href="/addpromo">Добавить промокод</a>
                     </li>
                 </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -96,11 +96,11 @@
 
         <c:choose>
             <c:when test="${sessionScope.user == null}">
-                <p><a href="enter">Вход</a>/<a href="registration">Регистрация</a></p>
+                <p><a href="/enter">Вход</a>/<a href="/registration">Регистрация</a></p>
 
             </c:when>
             <c:otherwise>
-                <p>Пользователь: <a href="profile"><%=session.getAttribute("user")%></a></p>
+                <p>Пользователь: <a href="/profile"><%=session.getAttribute("user")%></a></p>
                 <a href="logout" class="btn btn-outline-success my-2 my-sm-0">Выйти</a>
             </c:otherwise>
         </c:choose>
