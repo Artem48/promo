@@ -121,8 +121,5 @@ public class GetController {
         return category;
     }
 
-//    @RequestMapping(value = {"/shop"}, method = {RequestMethod.GET})
-//    public String shop() {
-//        return "shop";
-//    }
+
 }
