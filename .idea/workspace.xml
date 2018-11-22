@@ -7,21 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="232933e6-01e2-4946-9ecc-bebeba3c15c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/profile.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/GetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/controller/GetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/CategoryImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/CategoryImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/PromoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/PromoImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/ShopImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/dao/ShopImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoServiceImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/GetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/controller/GetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/CategoryServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/CategoryServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/scnetcracker/service/PromoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/CategoryImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/CategoryImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/PromoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/PromoImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/ShopImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/dao/ShopImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/PromoServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/PromoServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/CategoryServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/CategoryServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/PromoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/classes/com/scnetcracker/service/PromoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/addpromo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/addpromo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/profile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/promo-1.0-SNAPSHOT/WEB-INF/views/profile.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,13 +55,6 @@
         <item name="promo@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="promo: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="promo@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="promo: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="promocodes: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -266,12 +258,13 @@
     <session id="-955941806">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -279,13 +272,13 @@
           <entry key="SCHEMA:promo" value="2" />
           <entry key="class" value="24" />
           <entry key="css" value="3" />
-          <entry key="java" value="32" />
+          <entry key="java" value="34" />
           <entry key="js" value="7" />
-          <entry key="jsp" value="14" />
+          <entry key="jsp" value="15" />
           <entry key="promocodes" value="3" />
           <entry key="shops" value="3" />
           <entry key="sql" value="3" />
-          <entry key="users" value="1" />
+          <entry key="users" value="2" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
@@ -293,9 +286,9 @@
         <counts>
           <entry key="CLASS" value="24" />
           <entry key="CSS" value="3" />
-          <entry key="Database Element" value="7" />
-          <entry key="JAVA" value="32" />
-          <entry key="JSP" value="14" />
+          <entry key="Database Element" value="8" />
+          <entry key="JAVA" value="34" />
+          <entry key="JSP" value="15" />
           <entry key="JavaScript" value="7" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="2" />
@@ -305,19 +298,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1369" />
+          <entry key="java" value="1381" />
           <entry key="js" value="10" />
-          <entry key="jsp" value="292" />
+          <entry key="jsp" value="321" />
           <entry key="sql" value="12" />
-          <entry key="txt" value="57" />
+          <entry key="txt" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1369" />
-          <entry key="JSP" value="292" />
+          <entry key="JAVA" value="1381" />
+          <entry key="JSP" value="321" />
           <entry key="JavaScript" value="10" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="PLAIN_TEXT" value="80" />
           <entry key="SQL" value="10" />
           <entry key="Scratch" value="2" />
         </counts>
@@ -335,28 +328,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://859befcd-0acd-4772-83e0-9261a851218c/schema/promo/table/promocodes">
+        <entry file="das://859befcd-0acd-4772-83e0-9261a851218c/schema/promo/table/users">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -365,14 +337,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="306">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1542851270148" expanded="true" signature="4079:4348" ph="..." />
+                <element signature="e#341#342#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -392,7 +384,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="204">
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="e#382#383#0" expanded="true" />
@@ -405,8 +397,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="58" column="79" lean-forward="true" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+            <state relative-caret-position="765">
+              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -423,7 +415,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
+            <state relative-caret-position="544">
               <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
             </state>
           </provider>
@@ -432,12 +424,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="323">
               <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="e#819#820#0" expanded="true" />
                 <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -514,7 +506,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/auth.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/auth.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/addPromo.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/ShopService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/main.js" />
@@ -531,7 +522,6 @@
         <option value="$PROJECT_DIR$/script.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/entity/CommentsEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/ShopImp.java" />
@@ -539,7 +529,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
         <option value="$PROJECT_DIR$/.idea/webContexts.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shop.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/category.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/topbar.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/topNavBar.jsp" />
@@ -548,6 +537,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp" />
       </list>
     </option>
   </component>
@@ -572,9 +564,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1055" />
-    <option name="width" value="1520" />
-    <option name="height" value="1105" />
+    <option name="x" value="484" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -584,6 +577,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -762,7 +756,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -773,7 +766,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542851409228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542851753684" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -960,7 +953,8 @@
       <workItem from="1542760734632" duration="1195000" />
       <workItem from="1542763841673" duration="4228000" />
       <workItem from="1542768527902" duration="1285000" />
-      <workItem from="1542840058191" duration="6567000" />
+      <workItem from="1542840058191" duration="6948000" />
+      <workItem from="1542899272966" duration="2714000" />
     </task>
     <task id="LOCAL-00001" summary="Big commit">
       <created>1542031160964</created>
@@ -983,11 +977,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542769199449</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="promo delete added">
+      <created>1542851560855</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542851560855</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193137000" />
+    <option name="totallyTimeSpent" value="196232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,10 +1000,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.53047776" visible="true" weight="0.18656716" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53047776" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" sideWeight="0.46952224" side_tool="true" weight="0.18656716" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1012,8 +1012,8 @@
       <window_info id="Web" order="7" sideWeight="0.41350907" side_tool="true" weight="0.20042644" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.34236187" />
-      <window_info anchor="bottom" x="435" y="445" width="937" height="369" id="Debug" order="3" sideWeight="0.49840087" visible="true" weight="0.26760563" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.34236187" />
+      <window_info anchor="bottom" x="435" y="445" width="937" height="369" id="Debug" order="3" sideWeight="0.49840087" weight="0.26760563" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32907802" />
@@ -1032,10 +1032,10 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.50591713" visible="true" weight="0.13646056" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.5041186" visible="true" weight="0.13646056" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Persistence" order="9" sideWeight="0.49408284" side_tool="true" visible="true" weight="0.13646056" />
+      <window_info anchor="right" id="Persistence" order="9" sideWeight="0.49588138" side_tool="true" visible="true" weight="0.13646056" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1074,7 +1074,8 @@
     <MESSAGE value="Big commit" />
     <MESSAGE value="find promo by shop or category works" />
     <MESSAGE value="merged with addpromo" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged with addpromo" />
+    <MESSAGE value="promo delete added" />
+    <option name="LAST_COMMIT_MESSAGE" value="promo delete added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1239,13 +1240,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://859befcd-0acd-4772-83e0-9261a851218c/schema/promo/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/auth.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1281,20 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/webContexts.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/templates/topNavBar.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1312,13 +1292,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/auth.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -1359,9 +1332,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="163" selection-start-line="163" selection-end-line="163" />
-          <folding>
-            <element signature="e#6345#6346#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,34 +1377,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="58" column="79" lean-forward="true" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        <state relative-caret-position="1326">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
           <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1542851270148" expanded="true" signature="4079:4348" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1449,43 +1415,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/UserServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/UserImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/PromoServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="323">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="e#819#820#0" expanded="true" />
             <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/PromoImp.java">
+    <entry file="das://859befcd-0acd-4772-83e0-9261a851218c/schema/promo/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/service/CategoryServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="204">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/controller/GetController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/scnetcracker/dao/CategoryImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1542851270148" expanded="true" signature="4079:4348" ph="..." />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addpromo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>

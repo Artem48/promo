@@ -16,6 +16,9 @@ public class CategoryServiceImp implements CategoryService{
     public List getCategories() {
         return category.getCategories();
     }
+    public List getAllCategories() {
+        return category.getAllCategories();
+    }
 
     public List getChildrenCategory(int Id) {
         return category.getChildrenCategory(Id);

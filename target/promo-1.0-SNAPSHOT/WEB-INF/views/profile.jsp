@@ -43,6 +43,7 @@
                         <div class="col-md-3">
                             <div class="card card-box">
                                 <img class="card-img-top card-middle card-image" src="resources/img/1.png" alt="Card image cap">
+                                <a href="/delete/<%=w.getPromoId()%>">X</a>
                                 <div class="card-block">
                                     <h4 class="card-title card-middle-text">
                                         <%

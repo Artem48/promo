@@ -57,7 +57,7 @@
                 <select id="Category">
                     <%
                         CategoryServiceImp categoryService = new CategoryServiceImp();
-                        List<CategoriesEntity> categories = categoryService.getCategories();
+                        List<CategoriesEntity> categories = categoryService.getAllCategories();
                         for(CategoriesEntity category : categories){
 
                     %>
