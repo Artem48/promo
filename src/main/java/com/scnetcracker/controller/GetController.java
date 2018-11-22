@@ -1,6 +1,9 @@
 package com.scnetcracker.controller;
 
+import com.scnetcracker.service.PromoService;
+import com.scnetcracker.service.PromoServiceImp;
 import com.scnetcracker.service.UserServiceImp;
+import com.scnetcracker.entity.UsersEntity;
 import org.json.JSONObject;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -119,6 +122,16 @@ public class GetController {
         category.addObject("id", id);
         category.setViewName("category");
         return category;
+    }
+
+    @RequestMapping(value = {"/delete/{id}"}, method = {RequestMethod.GET})
+    public String delete(HttpServletRequest request, @PathVariable String id) {
+        PromoServiceImp PromoService = new PromoServiceImp();
+        UserServiceImp UserService = new UserServiceImp();
+        UsersEntity user = (UsersEntity)UserService.getUser(request.getSession().getAttribute("user").toString()).get(0);
+        if(PromoService.checkUser(id, user.getId()))
+            PromoService.deletePromo(id);
+        return "redirect:/profile";
     }
 
 

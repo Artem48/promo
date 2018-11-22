@@ -22,4 +22,10 @@ public class PromoServiceImp implements PromoService {
     public void createPromo(String Promo, String Description, String Shop, String Category, String ExpireDate, String User){
         promo.createPromo(Promo, Description, Shop, Category, ExpireDate, User);
     }
+    public void deletePromo(String id){
+        promo.deletePromo(id);
+    }
+    public boolean checkUser(String promoID, int userID){
+        return promo.checkUser(promoID, userID);
+    }
 }

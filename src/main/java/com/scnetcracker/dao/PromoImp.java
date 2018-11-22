@@ -88,5 +88,32 @@ public class PromoImp implements Promo {
         session.getTransaction().commit();
 
     }
+    public void deletePromo(String id)
+    {
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("delete from PromocodesEntity WHERE promoId = :promoId");
+        query.setParameter("promoId", Integer.parseInt(id));
+        int result = query.executeUpdate();
+        session.getTransaction().commit();
+    }
+
+    public boolean checkUser(String promoID, int userID)
+    {
+        Session session = HibernateSessionFactory.getSessionFactory().openSession();
+
+        session.beginTransaction();
+
+        Query query = session.createQuery("from PromocodesEntity WHERE promoId = :promoId");
+        query.setParameter("promoId", Integer.parseInt(promoID));
+        List<PromocodesEntity> list = (List<PromocodesEntity>) query.list();
+        if(list.isEmpty())
+            return false;
+        else if(list.get(0).getUserId()!=userID)
+            return false;
+        return true;
+    }
 
 }
